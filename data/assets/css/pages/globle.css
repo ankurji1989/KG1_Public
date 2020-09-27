@@ -1,0 +1,89 @@
+/********** Hover Zoom In ***********/
+.Zoom{transition: 1s;}
+.Zoom:hover{transform: scale(1.1); cursor: pointer;}
+
+
+/********** After None ***********/
+.after_none:after{ background: inherit !important; }
+
+
+/********** After None ***********/
+.botton_box {width: 100px; position: absolute; right: 10px; bottom: 0px;}
+.submit_btn{ width: 50px; float: left; height: auto; }
+.reload{ width: 50px; float: left; height: auto; }
+
+
+/********** Input Arrow None ***********/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+/* Firefox */
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  opacity: 0.5;
+}
+
+.new_font{font-family: 'quicksanddash'; font-size: 46px !important;}
+
+
+/********** Popup box ***********/
+
+.overlay {width: 100%; height: 100%; position: absolute; left: 0; top: 0; background-color: rgba(0, 0, 0, 0.5); z-index: 99;}
+.feedback_box {
+    width: 360px;
+    height: 187px;
+    border: 1px solid red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+.wrong_feedback, .feedback_box, .right_feedback, .overlay{display: none;}
+.close_popup {position: absolute; right: -27px; top: -28px; font-size: 30px; font-weight: bold; color: red; cursor: pointer;}
+.feedback_box img{width: 100%; max-width: 100%; border-radius: 20px;}
+
+
+
+.global .header_part {height: auto; position: relative;}
+.global .left_pointer_img {position: absolute;left: -42px;top: -60px;z-index: 9;}
+.global .left_pointer_img img{max-width: 100%;}
+
+
+
+@media (max-width: 768px){
+	.botton_box {width: 70px; position: absolute;right: 36px; bottom: 50px;}
+	.submit_btn { width: 35px; float: left; height: auto;}
+	.reload { width: 35px; float: left; height: auto;}
+}
+@media (max-width: 480px){
+	.botton_box {
+	    width: 90px;
+	    position: absolute;
+	    right: 10px;
+	    bottom: 0px;
+	}
+	.submit_btn {
+    width: 35px;
+    float: left;
+    height: auto;
+}
+
+.submit_btn img, .reload img {
+    width: 35px !important;
+    max-width: inherit;
+}
+	.reload { width: 35px; float: left; height: auto;}
+	.unit_1_lesson_1 .exercise2 .botton_box, .unit_1_lesson_1 .exercise3 .botton_box, .unit_1_lesson_1 .exercise4 .botton_box {
+    bottom: 44px;
+}
+
+
+.global .left_pointer_img{position: relative;text-align: center;left: 0px;top: 0px;}
+}
+
