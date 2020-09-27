@@ -1,0 +1,38 @@
+@media (max-width: 767px){
+.lesson {overflow-x: hidden;overflow-y: scroll;background: #fff;}
+}
+@media (max-width: 480px){
+/********************** unit_6_lesson_1 .exercise_1 Start ********************/
+.unit_6_lesson_1 .exercise1 .numberBox {float:none;margin:0px auto;}
+.unit_6_lesson_1 .exercise1 .numberBox2.heading1{margin: 0px; }
+.unit_6_lesson_1 .exercise1{padding: 10px;}
+.unit_6_lesson_1 .exercise1 .numberBox2.heading2{margin: 13% 0px;}
+/********************** unit_6_lesson_1 .exercise_1 End **********************/
+
+/********************** unit_6_lesson_1 .exercise_2 Start ********************/
+.unit_6_lesson_1 .exercise2 .fullBox .leftBox{width: 100%;}
+.unit_6_lesson_1 .exercise2 .fullBox .rightBox{ width: 100%;}
+.unit_6_lesson_1 .exercise2 .fullBox .numberBox{margin: 0px;}
+.unit_6_lesson_1 .exercise2 .fullBox{margin: 0px;;}
+.unit_6_lesson_1 .exercise2 .fullBox{background: #f0f3c2;padding-bottom: 33px;}
+/********************** unit_6_lesson_1 .exercise_2 End **********************/
+
+/********************** unit_6_lesson_2 .exercise_1 Start ********************/
+.unit_6_lesson_2 .exercise1 .bottomBox > div{ width: 100%;}
+.unit_6_lesson_2 .exercise1 .border_line{display: none;}
+.unit_6_lesson_2 .exercise1 .fullBox .topBox .numBox.up{top: 7%;}
+.unit_6_lesson_2 .exercise1 .fullBox .topBox .numBox.down{bottom: -28%;}
+.unit_6_lesson_2 .exercise1 .bottomBox > div.leftBox{ border: none;}
+.unit_6_lesson_2 .exercise1 .bottomBox{margin-top: 80px;}
+.unit_6_lesson_2 .exercise1 .fullBox .topBox .imageBox{ max-width: 93%;}
+/********************** unit_6_lesson_2 .exercise_1 end ********************/
+}
+
+
+@media (max-width: 360px){
+.unit_6_lesson_1 .exercise2 .numberBox .box{margin: auto; max-width: initial;}
+.unit_6_lesson_2 .exercise1 .fullBox .bottomBox .leftBox .numBox.up{top: -2%;}
+.unit_6_lesson_2 .exercise1 .fullBox .bottomBox .rightBox .numBox.down{right: -3%;}
+.unit_6_lesson_2 .exercise1 .fullBox .bottomBox .rightBox .numBox.up{ left: 4%;}
+.unit_6_lesson_2 .exercise1 .fullBox .bottomBox .leftBox .numBox.down{bottom: 33%;}
+}

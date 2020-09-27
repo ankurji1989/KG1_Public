@@ -4,6 +4,7 @@
 .unit_5_lesson_1 .exercise1 .numberBox {width: auto; float:right; display: flex;max-width: 300px;}
 .unit_5_lesson_1 .exercise1 .numberBox > div{margin:5px 0px 0px 0px;}
 .unit_5_lesson_1 .exercise1 .numberBox > div img{max-width: 100%;}
+.unit_5_lesson_1 .exercise1 .numberBox img{cursor: pointer;}
 
 .unit_5_lesson_1 .exercise1 .numberBox2{display: flex;width: 100%;max-width: 580px;}
 .unit_5_lesson_1 .exercise1 .numberBox2 > div{width: 22%;float:left;}
@@ -187,3 +188,10 @@
 .unit_5_lesson_4 .exercise1 .bottomBox .imageBox .numberBox.right1{right:0px;top:2%;}
 .unit_5_lesson_4 .exercise1 .bottomBox .imageBox .numberBox.right2{right:0px;top:75%;}
 /********************** unit_5_lesson_4 .exercise_1 End ********************/
+
+
+
+
+
+
+

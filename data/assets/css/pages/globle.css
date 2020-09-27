@@ -51,7 +51,7 @@ input::-webkit-inner-spin-button {
 
 
 .global .header_part {height: auto; position: relative;}
-.global .left_pointer_img {position: absolute;left: -42px;top: -60px;z-index: 9;}
+.global .left_pointer_img {position: absolute;left: -35px;top: -60px;z-index: 9;}
 .global .left_pointer_img img{max-width: 100%;}
 
 
