@@ -189,7 +189,58 @@
 .unit_5_lesson_4 .exercise1 .bottomBox .imageBox .numberBox.right2{right:0px;top:75%;}
 /********************** unit_5_lesson_4 .exercise_1 End ********************/
 
+/********************** unit_5_lesson_4 .exercise_2 Start ********************/
+.unit_5_lesson_4 .exercise2{background: #fff;}
+.unit_5_lesson_4 .exercise2 img{max-width: 100%;}
+.unit_5_lesson_4 .exercise2 .fullBox{width: 100%;float: left;padding:0px 10px;}
+.unit_5_lesson_4 .exercise2 .fullBox .boxArea{width: 100%;float: left;display: flex;justify-content: center;margin:5% 0px 20px 0px;}
+.unit_5_lesson_4 .exercise2 .fullBox .boxArea .numberBox{display: flex;display: flex;justify-content: center;align-items: center;}
+.unit_5_lesson_4 .exercise2 .fullBox .boxArea .numberBox:first-child{margin:0px 15px 0px 0px;}
+.unit_5_lesson_4 .exercise2 .fullBox .boxArea .numberBox > div:first-child{width: 40px;}
+.unit_5_lesson_4 .exercise2 .fullBox .boxArea .numberBox > img{margin:0px 5px;}
+.unit_5_lesson_4 .exercise2 .fullBox .boxArea .numberBox > div:last-child{width: 40px;}
+.unit_5_lesson_4 .exercise2 .fullBox .boxArea .numberBox > div:last-child .colorDot{width: 34px;height: 34px;border-radius: 50%; cursor: pointer;}
+.unit_5_lesson_4 .exercise2 .fullBox .boxArea .numberBox:first-child > div:last-child > div.colorDot{background-color: #41ad49;}
+.unit_5_lesson_4 .exercise2 .fullBox .boxArea .numberBox:last-child > div:last-child > div.colorDot{background-color: #25408f;}
+.unit_5_lesson_4 .exercise2 .fullBox .boxArea .numberBox > div:last-child .colorDot.selected{border:2px solid #000;}
 
+.unit_5_lesson_4 .exercise2 .colorTool{width: 100%;max-width: 600px;margin:0px auto;}
+.unit_5_lesson_4 .exercise2 .colorTool .wrapperTool{width: 100%; float: left;border:2px solid #c8c1df;border-radius: 15px;padding:15px 0px;display: flex; align-items: stretch;}
+.unit_5_lesson_4 .exercise2 .wrapperTool .flexColumn{ display: flex; justify-content: center; align-items: center;padding:0px 10px;border-right: 2px solid #c8c1df;}
+.unit_5_lesson_4 .exercise2 .wrapperTool .flexColumn:last-child{border:0px;}
+
+.unit_5_lesson_4 .exercise2 .wrapperTool .flexColumn.foot .left{background: url('../../images/unit_5/Lesson_4/Page_2/foot_left.png') center center no-repeat; background-size: 100% 100%;}
+.unit_5_lesson_4 .exercise2 .wrapperTool .flexColumn.foot .left.green{background: url('../../images/unit_5/Lesson_4/Page_2/foot_left_green.png') center center no-repeat; background-size: 100% 100%;}
+.unit_5_lesson_4 .exercise2 .wrapperTool .flexColumn.foot .left.blue{background: url('../../images/unit_5/Lesson_4/Page_2/foot_left_blue.png') center center no-repeat; background-size: 100% 100%;}
+
+.unit_5_lesson_4 .exercise2 .wrapperTool .flexColumn.foot .right{background: url('../../images/unit_5/Lesson_4/Page_2/foot_right.png') center center no-repeat; background-size: 100% 100%;}
+.unit_5_lesson_4 .exercise2 .wrapperTool .flexColumn.foot .right.green{background: url('../../images/unit_5/Lesson_4/Page_2/foot_right_green.png') center center no-repeat; background-size: 100% 100%;}
+.unit_5_lesson_4 .exercise2 .wrapperTool .flexColumn.foot .right.blue{background: url('../../images/unit_5/Lesson_4/Page_2/foot_right_blue.png') center center no-repeat; background-size: 100% 100%;}
+
+.unit_5_lesson_4 .exercise2 .wrapperTool .flexColumn.heart .left{background: url('../../images/unit_5/Lesson_4/Page_2/heart.png') center center no-repeat; background-size: 100% 100%;margin:0px 10px 0px 0px}
+.unit_5_lesson_4 .exercise2 .wrapperTool .flexColumn.heart .left.green{background: url('../../images/unit_5/Lesson_4/Page_2/heart_green.png') center center no-repeat; background-size: 100% 100%;}
+.unit_5_lesson_4 .exercise2 .wrapperTool .flexColumn.heart .left.blue{background: url('../../images/unit_5/Lesson_4/Page_2/heart_blue.png') center center no-repeat; background-size: 100% 100%;}
+
+.unit_5_lesson_4 .exercise2 .wrapperTool .flexColumn.heart .right{background: url('../../images/unit_5/Lesson_4/Page_2/heart.png') center center no-repeat; background-size: 100% 100%;}
+.unit_5_lesson_4 .exercise2 .wrapperTool .flexColumn.heart .right.green{background: url('../../images/unit_5/Lesson_4/Page_2/heart_green.png') center center no-repeat; background-size: 100% 100%;}
+.unit_5_lesson_4 .exercise2 .wrapperTool .flexColumn.heart .right.blue{background: url('../../images/unit_5/Lesson_4/Page_2/heart_blue.png') center center no-repeat; background-size: 100% 100%;}
+
+.unit_5_lesson_4 .exercise2 .wrapperTool .flexColumn.ice .left{background: url('../../images/unit_5/Lesson_4/Page_2/ice_cream.png') center center no-repeat; background-size: 100% 100%;}
+.unit_5_lesson_4 .exercise2 .wrapperTool .flexColumn.ice .left.green{background: url('../../images/unit_5/Lesson_4/Page_2/ice_cream_green.png') center center no-repeat; background-size: 100% 100%;}
+.unit_5_lesson_4 .exercise2 .wrapperTool .flexColumn.ice .left.blue{background: url('../../images/unit_5/Lesson_4/Page_2/ice_cream_blue.png') center center no-repeat; background-size: 100% 100%;}
+
+.unit_5_lesson_4 .exercise2 .wrapperTool .flexColumn.ice .right{background: url('../../images/unit_5/Lesson_4/Page_2/ice_cream.png') center center no-repeat; background-size: 100% 100%;}
+.unit_5_lesson_4 .exercise2 .wrapperTool .flexColumn.ice .right.green{background: url('../../images/unit_5/Lesson_4/Page_2/ice_cream_green.png') center center no-repeat; background-size: 100% 100%;}
+.unit_5_lesson_4 .exercise2 .wrapperTool .flexColumn.ice .right.blue{background: url('../../images/unit_5/Lesson_4/Page_2/ice_cream_blue.png') center center no-repeat; background-size: 100% 100%;}
+/********************** unit_5_lesson_4 .exercise_2 Start ********************/
+
+/********************** unit_5_lesson_4 .exercise_3 Start ********************/
+.unit_5_lesson_4 .exercise3{background: #fff;}
+.unit_5_lesson_4 .exercise3 img{max-width: 100%;}
+.fullBox{width: 100%; float: left;margin:5% 0px 0px 0px;}
+.fullBox .imageBox{width: 100%;float:left;position: relative;}
+.fullBox .imageBox > img{width: 100%;}
+/********************** unit_5_lesson_4 .exercise_3 End ********************/
 
 
 
