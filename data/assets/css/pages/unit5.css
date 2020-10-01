@@ -237,12 +237,18 @@
 /********************** unit_5_lesson_4 .exercise_3 Start ********************/
 .unit_5_lesson_4 .exercise3{background: #fff;}
 .unit_5_lesson_4 .exercise3 img{max-width: 100%;}
-.fullBox{width: 100%; float: left;margin:5% 0px 0px 0px;}
-.fullBox .imageBox{width: 100%;float:left;position: relative;}
-.fullBox .imageBox > img{width: 100%;}
+.unit_5_lesson_4 .exercise3 .fullBox{width: 100%; float: left;display:flex;justify-content: center; align-items: center; height: 100%;}
+.unit_5_lesson_4 .exercise3 .imageBox{width: 100%;float:left;position: relative;}
+.unit_5_lesson_4 .exercise3 .imageBox > img{width: 100%;}
+.unit_5_lesson_4 .exercise3 .imageBox .clickArea{position: absolute;left:0px;right:0px;top:0px;bottom:0px;}
+.unit_5_lesson_4 .exercise3 .imageBox .clickArea .clickBox{position: absolute;width: 9%;height:15%; display: none;}
+.unit_5_lesson_4 .exercise3 .imageBox .clickArea .clickBox.selected{display: block;}
+.unit_5_lesson_4 .exercise3 .imageBox .clickArea .clickBox.circle{border:2px solid red;border-radius: 50%;}
+.unit_5_lesson_4 .exercise3 .imageBox .clickArea .clickBox.tick{background: url('../../images/unit_5/Lesson_4/Page_3/tick.png') center center no-repeat;}
+.unit_5_lesson_4 .exercise3 .imageBox .clickArea .clickBox:nth-of-type(1){left:35%;top:22%;}
+.unit_5_lesson_4 .exercise3 .imageBox .clickArea .clickBox:nth-of-type(2){left:51%;top:29%;}
+.unit_5_lesson_4 .exercise3 .imageBox .clickArea .clickBox:nth-of-type(3){left: 40%;top: 36%;}
+.unit_5_lesson_4 .exercise3 .imageBox .clickArea .clickBox:nth-of-type(4){left: 36%;top: 67%;}
+.unit_5_lesson_4 .exercise3 .imageBox .clickArea .clickBox:nth-of-type(5){left: 46%;top: 56%;}
+.unit_5_lesson_4 .exercise3 .imageBox .clickArea .clickBox:nth-of-type(6){left: 48%;top: 75%;}
 /********************** unit_5_lesson_4 .exercise_3 End ********************/
-
-
-
-
-
