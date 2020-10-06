@@ -59,6 +59,7 @@ function lessonHeaderfooter(pagename, lessonDynName) {
                 fullScreenWindow();
                 $(".dynamiclessontitle").text(lessonDynName);
                 dynamicURL(pagename);
+                unitFn.init();
             });
         }
         if(pagename == 'data/unit1/lesson-1.html' || pagename == 'data/unit1/lesson-2.html' || pagename == 'data/unit1/lesson-3.html' || pagename == 'data/unit1/lesson-4.html' || pagename == 'data/unit1/lesson-5.html' || pagename == 'data/unit1/lesson-6.html' || pagename == 'data/unit1/lesson-7.html') {
@@ -163,6 +164,7 @@ function callDynamicScript() {
         $("#loadpagecontent").load(page, function(){
             dynamicURL(page);
             tocUnitLessonShowHide();
+            unitFn.init();
         });
         return false;
     });
