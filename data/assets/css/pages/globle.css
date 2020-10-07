@@ -51,7 +51,6 @@ input::-webkit-inner-spin-button {
 .feedback_box img{width: 100%; max-width: 100%; border-radius: 20px;}
 
 
-
 .global .header_part {height: auto; position: relative;}
 .global .left_pointer_img {position: absolute;left: -35px;top: -60px;z-index: 9;}
 .global .left_pointer_img img{max-width: 100%;}
@@ -90,3 +89,14 @@ input::-webkit-inner-spin-button {
 .global .left_pointer_img{position: relative;text-align: center;left: 0px;top: 0px;}
 }
 
+
+.global .botton_box{position: fixed !important;right: 45px !important;bottom: 50px !important;}
+.global .exercise {width: 100%;float: left;}
+.global .statusIcon{position: absolute !important;width: 36px !important; display: none !important;}
+.global .statusIcon.visible{display: inline-block !important;}
+@media only screen and (max-height: 500px), (max-width: 767px){
+.global.lesson{overflow: auto;overflow-x: hidden; background: #fff;}
+.global .left_pointer_img{position: relative; left:15px;top:5px;}
+.global .left_pointer_img img{max-height: 90px;}
+.global .fullBox{margin-top:0px !important;}
+}

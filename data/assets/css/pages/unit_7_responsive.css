@@ -1,6 +1,3 @@
-@media (max-width: 767px){
-.lesson {overflow-x: hidden;overflow-y: scroll;background: #fff;}
-}
 @media (max-width: 480px){
 /********************** unit_7 Start ********************/
 .unit_7_lesson_2 .exercise2 .bottomArea .header_part .left_pointer_img{top: 10px;}

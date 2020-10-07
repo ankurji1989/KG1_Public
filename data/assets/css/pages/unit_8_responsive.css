@@ -1,6 +1,7 @@
+/*
 @media (max-width: 767px){
 .lesson {overflow-x: hidden;overflow-y: scroll;background: #fff;}
-}
+}*/
 @media (max-width: 480px){
 /********************** unit_8 Start ********************/
 .unit_8_lesson_2 .exercise2 .fullBox .leftBox{width: 100%;}
