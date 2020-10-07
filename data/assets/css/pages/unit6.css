@@ -82,7 +82,7 @@
 .unit_6_lesson_3 .exercise1 .fullBox > div.column1 img{width: 100%;}
 
 .unit_6_lesson_3 .exercise1 .fullBox > div.column1 .numberBox{position: absolute;display: flex;align-items: center;}
-.unit_6_lesson_3 .exercise1 .fullBox > div.column1 .numberBox:nth-of-type(1){left:5%;top:23%}
+.unit_6_lesson_3 .exercise1 .fullBox > div.column1 .numberBox:nth-of-type(1){left:5%;top:33%}
 .unit_6_lesson_3 .exercise1 .fullBox > div.column1 .numberBox:nth-of-type(2){left:5%;bottom:15%}
 
 .unit_6_lesson_3 .exercise1 .fullBox > div.column2 .imageBox{width: 100%;text-align: center;padding: 0px 15px;margin-bottom:40px;}

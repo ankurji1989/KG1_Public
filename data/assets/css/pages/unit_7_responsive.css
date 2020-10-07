@@ -1,0 +1,17 @@
+@media (max-width: 480px){
+/********************** unit_7 Start ********************/
+.unit_7_lesson_2 .exercise2 .bottomArea .header_part .left_pointer_img{top: 10px;}
+.unit_7_lesson_3 .exercise2 .topBox > div{ width: 100%;}
+.unit_7_lesson_3 .exercise2 .topBox > div.leftBox{border: none;}
+.unit_7_lesson_4 .exercise1 .bottomBox .leftBox{ width: 100%; border: none ;}
+.unit_7_lesson_4 .exercise1 .bottomBox .rightBox{width: 100%;padding-top: 32px;padding-bottom: 90px;}
+.unit_7_lesson_4 .exercise2 .fullBox{ padding: 10px;}
+.unit_7_lesson_6 .exercise1 .fullBox{width: 87%;height: auto;}
+.unit_7_lesson_6 .exercise1 .fullBox .imageBox input{font-size: 52px;}
+/********************** unit_7 end ********************/
+}
+
+
+@media (max-width: 360px){
+    .unit_7_lesson_6 .exercise1 .fullBox .imageBox input{font-size: 40px;}
+}

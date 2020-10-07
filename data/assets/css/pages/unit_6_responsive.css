@@ -1,6 +1,3 @@
-@media (max-width: 767px){
-.lesson {overflow-x: hidden;overflow-y: scroll;background: #fff;}
-}
 @media (max-width: 480px){
 /********************** unit_6_lesson_1 .exercise_1 Start ********************/
 .unit_6_lesson_1 .exercise1 .numberBox {float:none;margin:0px auto;}
@@ -26,6 +23,11 @@
 .unit_6_lesson_2 .exercise1 .bottomBox{margin-top: 80px;}
 .unit_6_lesson_2 .exercise1 .fullBox .topBox .imageBox{ max-width: 93%;}
 /********************** unit_6_lesson_2 .exercise_1 end ********************/
+
+.unit_6_lesson_6 .exercise2 .fullBox .flexBox{ width: 100%;}
+.unit_6_lesson_3 .exercise1 .fullBox > div{width: 100%; height: 127%;}
+.unit_6_lesson_3 .exercise1 .fullBox > div:after{background: none;}
+.unit_6_lesson_3 .exercise1 .fullBox > div.column1 .numberBox:nth-of-type(1){left: 29%;top: 22%;}
 }
 
 

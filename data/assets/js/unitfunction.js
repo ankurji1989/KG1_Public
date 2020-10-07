@@ -86,6 +86,7 @@ var unitFn = {
 
                 $(selector).find(".reload").on('click', function() {
                     $(selector).find(".topBox .selectionArea").removeClass('selected');
+                    $(selector).find('.statusIcon').removeClass('visible');
                 });
             }
 
@@ -963,6 +964,7 @@ var unitFn = {
 
                 $(selector).find(".reload").on('click', function() {
                     $(selector).find(".circleArea > div").removeClass("selected");
+                    $(selector).find('.statusIcon').removeClass('visible');
                 });
             }
         }
@@ -1083,6 +1085,7 @@ var unitFn = {
 
                 $(selector).find(".reload").on('click', function() {
                     $(selector).find(".selectionArea").removeClass("selected");
+                    $(selector).find('.statusIcon').removeClass('visible');
                 });
             }
 
@@ -1276,9 +1279,14 @@ function checkStatus(selector, answer) {
     if (answer) {
         $(selector).find(".right_feedback").show();
         $(selector).find(".wrong_feedback").hide();
+        play('data/assets/audio/globle/good_job.mp3');
+        $(selector).find('.statusIcon.right').addClass('visible');
     } else {
         $(selector).find(".right_feedback").hide();
         $(selector).find(".wrong_feedback").show();
+        $(selector).find('.statusIcon').addClass('visible');
+        play('data/assets/audio/globle/oops_try_again.mp3');
+
     }
 }
 
@@ -1286,3 +1294,24 @@ function closePopup(selector) {
     $(selector).find(".feedback_box").hide();
     $(selector).find(".overlay").hide();
 }
+/*
+(function($) {
+    $.fn.hasScrollBar = function() {
+        return this.get(0).scrollHeight > this.height();
+    }
+})(jQuery);
+
+window.onload = toggleClass;   
+window.onresize = toggleClass;
+
+function toggleClass(){
+    let globalSelector = '.global';
+    if($('.dynamicpagediv').hasScrollBar()) {
+        $(globalSelector).toggleClass('pageHasScroll');
+    }
+
+    if($(".exercise:visible").outerHeight() > $(".lesson").outerHeight()){
+        $(globalSelector).toggleClass('pageHasScroll');
+    }
+}
+*/
