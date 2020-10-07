@@ -1085,6 +1085,7 @@ var unitFn = {
 
                 $(selector).find(".reload").on('click', function() {
                     $(selector).find(".selectionArea").removeClass("selected");
+                    $(selector).find('.statusIcon').removeClass('visible');
                 });
             }
 
