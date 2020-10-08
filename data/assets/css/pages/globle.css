@@ -96,7 +96,8 @@ input::-webkit-inner-spin-button {
 .global .statusIcon.visible{display: inline-block !important;}
 @media only screen and (max-height: 500px), (max-width: 767px){
 .global.lesson{overflow: auto;overflow-x: hidden; background: #fff;}
-.global .left_pointer_img{position: relative; left:15px;top:5px;}
+.global .left_pointer_img{position: fixed; left:0px;top:3px;}
+.global .header_part{height: 40px;}
 .global .left_pointer_img img{max-height: 90px;}
 .global .fullBox{margin-top:0px !important;}
 }
