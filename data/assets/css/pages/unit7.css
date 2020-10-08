@@ -5,6 +5,17 @@
 .unit_7_lesson_1 .exercise1 .bigNumberBox{width: 100%; display: flex; justify-content: center; align-items: center;border:3px solid #85bc40;border-radius: 25px;margin:15px 0px; background: #fff;}
 .unit_7_lesson_1 .exercise1 .bigNumberBox > div{flex-grow: 1;width: 30%;padding:10px; text-align: center;}
 .unit_7_lesson_1 .exercise1 .bigNumberBox > div.col2{flex-grow: 2;width: 40%;}
+
+.unit_7_lesson_1 .exercise1 .numberMatch{display: flex;justify-content: center; align-items: center;}
+.unit_7_lesson_1 .exercise1 .numberMatch > div{width: auto;float: left;position: relative;}
+.unit_7_lesson_1 .exercise1 .numberMatch > div img{float: left;}
+.unit_7_lesson_1 .exercise1 .numberMatch.matchbox1 .matchDot{position: absolute;width: 10%;height: 9%;top: 10%;cursor: pointer;}
+.unit_7_lesson_1 .exercise1 .numberMatch.matchbox1 .matchDot.dot1{left:31%;}
+.unit_7_lesson_1 .exercise1 .numberMatch.matchbox1 .matchDot.dot2{left:59%;}
+
+.unit_7_lesson_1 .exercise1 .numberMatch.matchbox2 .matchDot{position: absolute;width: 10%;height: 9%;cursor: pointer;}
+.unit_7_lesson_1 .exercise1 .numberMatch.matchbox2 .matchDot.dot1{top: 8%;left:12%;}
+.unit_7_lesson_1 .exercise1 .numberMatch.matchbox2 .matchDot.dot2{top: 19%;left:34%;}
 /**********************.unit_7_lesson_1 .exercise_1 End ********************/
 
 /**********************.unit_7_lesson_1 .exercise_2 Start ********************/
@@ -50,6 +61,13 @@
 .unit_7_lesson_1 .exercise2 .bigNumberBox{display: flex; justify-content: center; align-items: center;border:3px solid #85bc40;border-radius: 25px;margin:15px 15px; background: #fff;}
 .unit_7_lesson_1 .exercise2 .bigNumberBox > div{flex-grow: 1;width: 30%;padding:10px; text-align: center;}
 .unit_7_lesson_1 .exercise2 .bigNumberBox > div.col2{flex-grow: 2;width: 40%;}
+
+.unit_7_lesson_1 .exercise2 .numberMatch{display: flex;justify-content: center; align-items: center;}
+.unit_7_lesson_1 .exercise2 .numberMatch > div{width: auto;float: left;position: relative;}
+.unit_7_lesson_1 .exercise2 .numberMatch > div img{float: left;}
+.unit_7_lesson_1 .exercise2 .numberMatch.matchbox1 .matchDot{position: absolute;width: 10%;height: 9%;cursor: pointer;}
+.unit_7_lesson_1 .exercise2 .numberMatch.matchbox1 .matchDot.dot1{top:6%;left:15%;}
+.unit_7_lesson_1 .exercise2 .numberMatch.matchbox1 .matchDot.dot2{top:12%;left:40%;}
 /**********************.unit_7_lesson_1 .exercise_2 End ********************/
 
 /**********************.unit_7_lesson_2 .exercise_1 Start ********************/
@@ -59,6 +77,17 @@
 .unit_7_lesson_2 .exercise1 .bigNumberBox{width: 100%; display: flex; justify-content: center; align-items: center;border:3px solid #85bc40;border-radius: 25px;margin:15px 0px; background: #fff;}
 .unit_7_lesson_2 .exercise1 .bigNumberBox > div{flex-grow: 1;width: 30%;padding:10px; text-align: center;}
 .unit_7_lesson_2 .exercise1 .bigNumberBox > div.col2{flex-grow: 2;width: 40%;}
+
+.unit_7_lesson_2 .exercise1 .numberMatch{display: flex;justify-content: center; align-items: center;}
+.unit_7_lesson_2 .exercise1 .numberMatch > div{width: auto;float: left;position: relative;}
+.unit_7_lesson_2 .exercise1 .numberMatch > div img{float: left;}
+.unit_7_lesson_2 .exercise1 .numberMatch.matchbox1 .matchDot{position: absolute;width: 10%;height: 9%;cursor: pointer;}
+.unit_7_lesson_2 .exercise1 .numberMatch.matchbox1 .matchDot.dot1{top: 7%;left:11%;}
+.unit_7_lesson_2 .exercise1 .numberMatch.matchbox1 .matchDot.dot2{top: 5%;left:69%;}
+
+.unit_7_lesson_2 .exercise1 .numberMatch.matchbox2 .matchDot{position: absolute;width: 10%;height: 9%;cursor: pointer;}
+.unit_7_lesson_2 .exercise1 .numberMatch.matchbox2 .matchDot.dot1{top: 8%;left:12%;}
+.unit_7_lesson_2 .exercise1 .numberMatch.matchbox2 .matchDot.dot2{top: 9%;left:41%;}
 /**********************.unit_7_lesson_2 .exercise_1 End ********************/
 
 /**********************.unit_7_lesson_2 .exercise_2 Start ********************/

@@ -701,11 +701,48 @@ var unitFn = {
             exerciseFn_2();
 
             function exerciseFn_1() {
+                const selector = $(".unit_7_lesson_1 .exercise1");
+                const imageSrc = 'data/assets/images/unit_7/Lesson_1/Page_1/';
+                let isAnswerCorrected = false;
 
+                $(selector).find(".matchDot").click(function(){
+                    $(this).addClass('selected');
+                });
+
+                $(selector).find(".submit_btn").on('click', function() {
+                    const matchbox1 = $(selector).find('.matchbox1 .matchDot.selected').length;
+                    const matchbox2 = $(selector).find('.matchbox2 .matchDot.selected').length;
+
+                    if(matchbox1 === 2) {
+                        const replaceImg = $(selector).find(".matchbox1 img").data('replace-image');
+                        $(selector).find(".matchbox1 img").attr('src', imageSrc + replaceImg);
+                    }
+                    if(matchbox2 === 2) {
+                        const replaceImg = $(selector).find(".matchbox2 img").data('replace-image');
+                        $(selector).find(".matchbox2 img").attr('src', imageSrc + replaceImg);
+                    }
+                    isAnswerCorrected = matchbox1 === 2 && matchbox2 === 2? true : false;
+                    checkStatus(selector, isAnswerCorrected);
+                });
+
+                $(selector).find(".close_popup").off("click").on("click", function() {
+                    closePopup(selector);
+                });
+
+                $(selector).find(".reload").on('click', function() {
+                    $(selector).find(".matchDot").removeClass("selected");
+                    
+                    const orignalImg1 = $(selector).find(".matchbox1 img").data('orignal-image');
+                    $(selector).find(".matchbox1 img").attr('src', imageSrc + orignalImg1);
+
+                    const orignalImg2 = $(selector).find(".matchbox2 img").data('orignal-image');
+                    $(selector).find(".matchbox2 img").attr('src', imageSrc + orignalImg2);
+                });
             }
 
             function exerciseFn_2() {
                 const selector = $(".unit_7_lesson_1 .exercise2");
+                const imageSrc = 'data/assets/images/unit_7/Lesson_1/Page_2/';
                 let isAnswerCorrected = false;
                 let colorCode = '';
 
@@ -721,8 +758,18 @@ var unitFn = {
                     $(this).addClass(classes).addClass(colorCode);
                 });
 
+                $(selector).find(".matchDot").click(function(){
+                    $(this).addClass('selected');
+                });
+
                 $(selector).find(".submit_btn").on('click', function() {
-                    isAnswerCorrected = $(selector).find(".area1").hasClass("blue") && $(selector).find(".area2").hasClass("yellow") && $(selector).find(".area3").hasClass("green") ? true : false;
+                    const matchbox1 = $(selector).find('.matchbox1 .matchDot.selected').length;
+                    if(matchbox1 === 2) {
+                        const replaceImg = $(selector).find(".matchbox1 img").data('replace-image');
+                        $(selector).find(".matchbox1 img").attr('src', imageSrc + replaceImg);
+                    }
+
+                    isAnswerCorrected = matchbox1 === 2 && $(selector).find(".area1").hasClass("blue") && $(selector).find(".area2").hasClass("yellow") && $(selector).find(".area3").hasClass("green") ? true : false;
                     checkStatus(selector, isAnswerCorrected);
                 });
 
@@ -733,6 +780,9 @@ var unitFn = {
                 $(selector).find(".reload").on('click', function() {
                     $(selector).find(".colorDot").removeClass("selected");
                     $(selector).find(".numberArea").removeClass("blue").removeClass("yellow").removeClass("green");
+
+                    const orignalImg1 = $(selector).find(".matchbox1 img").data('orignal-image');
+                    $(selector).find(".matchbox1 img").attr('src', imageSrc + orignalImg1);
                 });
             }
         }
@@ -742,7 +792,43 @@ var unitFn = {
             exerciseFn_2();
 
             function exerciseFn_1() {
+                const selector = $(".unit_7_lesson_2 .exercise1");
+                const imageSrc = 'data/assets/images/unit_7/Lesson_2/Page_1/';
+                let isAnswerCorrected = false;
 
+                $(selector).find(".matchDot").click(function(){
+                    $(this).addClass('selected');
+                });
+
+                $(selector).find(".submit_btn").on('click', function() {
+                    const matchbox1 = $(selector).find('.matchbox1 .matchDot.selected').length;
+                    const matchbox2 = $(selector).find('.matchbox2 .matchDot.selected').length;
+
+                    if(matchbox1 === 2) {
+                        const replaceImg = $(selector).find(".matchbox1 img").data('replace-image');
+                        $(selector).find(".matchbox1 img").attr('src', imageSrc + replaceImg);
+                    }
+                    if(matchbox2 === 2) {
+                        const replaceImg = $(selector).find(".matchbox2 img").data('replace-image');
+                        $(selector).find(".matchbox2 img").attr('src', imageSrc + replaceImg);
+                    }
+                    isAnswerCorrected = matchbox1 === 2 && matchbox2 === 2? true : false;
+                    checkStatus(selector, isAnswerCorrected);
+                });
+
+                $(selector).find(".close_popup").off("click").on("click", function() {
+                    closePopup(selector);
+                });
+
+                $(selector).find(".reload").on('click', function() {
+                    $(selector).find(".matchDot").removeClass("selected");
+                    
+                    const orignalImg1 = $(selector).find(".matchbox1 img").data('orignal-image');
+                    $(selector).find(".matchbox1 img").attr('src', imageSrc + orignalImg1);
+
+                    const orignalImg2 = $(selector).find(".matchbox2 img").data('orignal-image');
+                    $(selector).find(".matchbox2 img").attr('src', imageSrc + orignalImg2);
+                });
             }
 
             function exerciseFn_2() {
@@ -984,9 +1070,76 @@ var unitFn = {
             exerciseFn_2();
 
             function exerciseFn_1() {
+                const selector = $(".unit_8_lesson_1 .exercise1");
+                const imageSrc = 'data/assets/images/unit_8/Lesson_1/Page_1/';
+                let isAnswerCorrected = false;
+
+                $(selector).find(".matchDot").click(function(){
+                    $(this).addClass('selected');
+                });
+
+                $(selector).find(".submit_btn").on('click', function() {
+                    const matchbox1 = $(selector).find('.matchbox1 .matchDot.selected').length;
+                    const matchbox2 = $(selector).find('.matchbox2 .matchDot.selected').length;
+
+                    if(matchbox1 === 2) {
+                        const replaceImg = $(selector).find(".matchbox1 img").data('replace-image');
+                        $(selector).find(".matchbox1 img").attr('src', imageSrc + replaceImg);
+                    }
+                    if(matchbox2 === 2) {
+                        const replaceImg = $(selector).find(".matchbox2 img").data('replace-image');
+                        $(selector).find(".matchbox2 img").attr('src', imageSrc + replaceImg);
+                    }
+                    isAnswerCorrected = matchbox1 === 2 && matchbox2 === 2? true : false;
+                    checkStatus(selector, isAnswerCorrected);
+                });
+
+                $(selector).find(".close_popup").off("click").on("click", function() {
+                    closePopup(selector);
+                });
+
+                $(selector).find(".reload").on('click', function() {
+                    $(selector).find(".matchDot").removeClass("selected");
+                    
+                    const orignalImg1 = $(selector).find(".matchbox1 img").data('orignal-image');
+                    $(selector).find(".matchbox1 img").attr('src', imageSrc + orignalImg1);
+
+                    const orignalImg2 = $(selector).find(".matchbox2 img").data('orignal-image');
+                    $(selector).find(".matchbox2 img").attr('src', imageSrc + orignalImg2);
+                });
             }
 
             function exerciseFn_2() {
+                const selector = $(".unit_8_lesson_1 .exercise2");
+                const imageSrc = 'data/assets/images/unit_8/Lesson_1/Page_2/';
+                let isAnswerCorrected = false;
+
+                $(selector).find(".matchDot").click(function(){
+                    $(this).addClass('selected');
+                });
+
+                $(selector).find(".submit_btn").on('click', function() {
+                    const matchbox1 = $(selector).find('.matchbox1 .matchDot.selected').length;
+
+                    if(matchbox1 === 2) {
+                        const replaceImg = $(selector).find(".matchbox1 img").data('replace-image');
+                        $(selector).find(".matchbox1 img").attr('src', imageSrc + replaceImg);
+                    }
+
+                    isAnswerCorrected = matchbox1 === 2 ? true : false;
+                    checkStatus(selector, isAnswerCorrected);
+                });
+
+                $(selector).find(".close_popup").off("click").on("click", function() {
+                    closePopup(selector);
+                });
+
+                $(selector).find(".reload").on('click', function() {
+                    $(selector).find(".matchDot").removeClass("selected");
+                    
+                    const orignalImg1 = $(selector).find(".matchbox1 img").data('orignal-image');
+                    $(selector).find(".matchbox1 img").attr('src', imageSrc + orignalImg1);
+                });
             }
         }
 
@@ -995,6 +1148,43 @@ var unitFn = {
             exerciseFn_2();
 
             function exerciseFn_1() {
+                const selector = $(".unit_8_lesson_2 .exercise1");
+                const imageSrc = 'data/assets/images/unit_8/Lesson_2/Page_1/';
+                let isAnswerCorrected = false;
+
+                $(selector).find(".matchDot").click(function(){
+                    $(this).addClass('selected');
+                });
+
+                $(selector).find(".submit_btn").on('click', function() {
+                    const matchbox1 = $(selector).find('.matchbox1 .matchDot.selected').length;
+                    const matchbox2 = $(selector).find('.matchbox2 .matchDot.selected').length;
+
+                    if(matchbox1 === 2) {
+                        const replaceImg = $(selector).find(".matchbox1 img").data('replace-image');
+                        $(selector).find(".matchbox1 img").attr('src', imageSrc + replaceImg);
+                    }
+                    if(matchbox2 === 2) {
+                        const replaceImg = $(selector).find(".matchbox2 img").data('replace-image');
+                        $(selector).find(".matchbox2 img").attr('src', imageSrc + replaceImg);
+                    }
+                    isAnswerCorrected = matchbox1 === 2 && matchbox2 === 2? true : false;
+                    checkStatus(selector, isAnswerCorrected);
+                });
+
+                $(selector).find(".close_popup").off("click").on("click", function() {
+                    closePopup(selector);
+                });
+
+                $(selector).find(".reload").on('click', function() {
+                    $(selector).find(".matchDot").removeClass("selected");
+                    
+                    const orignalImg1 = $(selector).find(".matchbox1 img").data('orignal-image');
+                    $(selector).find(".matchbox1 img").attr('src', imageSrc + orignalImg1);
+
+                    const orignalImg2 = $(selector).find(".matchbox2 img").data('orignal-image');
+                    $(selector).find(".matchbox2 img").attr('src', imageSrc + orignalImg2);
+                });
             }
 
             function exerciseFn_2() {
@@ -1139,7 +1329,7 @@ var unitFn = {
                 $(selector).find(".drop_box").droppable({
                     drop: function(event, ui) {
                         var getDropedElmLen = $(this).children(".dreg_box").length;
-                        if (getDropedElmLen <= 8) {
+                        if (getDropedElmLen <= 0) {
                             $(this).append($(ui.draggable).clone());
                             ui.draggable.css({top:'0px',left:'0px'});
                         } else {
@@ -1149,8 +1339,12 @@ var unitFn = {
                 });
 
                 $(selector).find(".submit_btn").on('click', function() {
-                    //incomplete ankur
-
+                    const box1 = $(selector).find(".drop_box1 img").length;
+                    const box2 = $(selector).find(".drop_box2 img").length;
+                    const box3 = $(selector).find(".drop_box3 img").length;
+                    const box4 = $(selector).find(".drop_box4 img").length;
+                    const box5 = $(selector).find(".drop_box5 img").length;
+                    isAnswerCorrected = box1 === 4 && box2 === 8 && box3 === 3 && box4 === 1 && box5 === 6 ? true : false;
                     checkStatus(selector, isAnswerCorrected);
                 });
 
