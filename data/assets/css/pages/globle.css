@@ -90,7 +90,7 @@ input::-webkit-inner-spin-button {
 }
 
 
-.global .botton_box{position: fixed !important;right: 45px !important;bottom: 50px !important;}
+.global .botton_box{position: fixed !important;right: 45px !important;bottom: 41px !important;}
 .global .exercise {width: 100%;float: left;}
 .global .statusIcon{position: absolute !important;width: 36px !important; display: none !important;}
 .global .statusIcon.visible{display: inline-block !important;}
