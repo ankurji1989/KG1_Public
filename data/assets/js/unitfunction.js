@@ -291,7 +291,10 @@ var unitFn = {
                 });
 
                 $(selector).find(".submit_btn").on('click', function() {
+                    const textbox1 = $(selector).find('.textbox1').val();
+                    const textbox2 = $(selector).find('.textbox2').val();
                     isAnswerCorrected = 
+                    textbox1 === 'up' && textbox2 === 'down' &&
                     $(selector).find(".leftBox .drop_box.up img").hasClass("up") && 
                     $(selector).find(".leftBox .drop_box.down img").hasClass("down") && 
                     $(selector).find(".rightBox .drop_box.up img").hasClass("up") && 
@@ -306,6 +309,7 @@ var unitFn = {
 
                 $(selector).find(".reload").on('click', function() {
                     $(selector).find(".drop_box").html('');
+                    $(selector).find('input').val('');
                 });
             }
 
@@ -328,7 +332,11 @@ var unitFn = {
                 });
 
                 $(selector).find(".submit_btn").on('click', function() {
+                    const textbox1 = $(selector).find('.textbox1').val();
+                    const textbox2 = $(selector).find('.textbox2').val();
+
                     isAnswerCorrected = 
+                    textbox1 === 'left' && textbox2 === 'right' &&
                     $(selector).find(".leftBox .drop_box.left img").hasClass("left") && 
                     $(selector).find(".leftBox .drop_box.right img").hasClass("right") && 
                     $(selector).find(".rightBox .drop_box.left img").hasClass("left") && 
@@ -343,6 +351,7 @@ var unitFn = {
 
                 $(selector).find(".reload").on('click', function() {
                     $(selector).find(".drop_box").html('');
+                    $(selector).find('input').val('');
                 });
             }
         }
@@ -493,7 +502,11 @@ var unitFn = {
                 });
 
                 $(selector).find(".submit_btn").on('click', function() {
+                    const textbox1 = $(selector).find(".textbox1").val();
+                    const textbox2 = $(selector).find(".textbox2").val();
+
                     isAnswerCorrected = 
+                    textbox1 === 'in' && textbox2 === 'out' &&
                     $(selector).find(".leftBox .drop_box.in img").hasClass("in") && 
                     $(selector).find(".leftBox .drop_box.out img").hasClass("out") && 
                     $(selector).find(".rightBox .drop_box.in img").hasClass("in") && 
@@ -508,6 +521,7 @@ var unitFn = {
 
                 $(selector).find(".reload").on('click', function() {
                     $(selector).find(".drop_box").html('');
+                    $(selector).find("input").val('');
                 });
             }
 
@@ -530,7 +544,11 @@ var unitFn = {
                 });
 
                 $(selector).find(".submit_btn").on('click', function() {
+                    const textbox1 = $(selector).find(".textbox1").val();
+                    const textbox2 = $(selector).find(".textbox2").val();
+
                     isAnswerCorrected = 
+                    textbox1 === 'over' && textbox2 === 'under' &&
                     $(selector).find(".leftBox .drop_box.over img").hasClass("over") && 
                     $(selector).find(".leftBox .drop_box.under img").hasClass("under") && 
                     $(selector).find(".rightBox .drop_box.over img").hasClass("over") && 
@@ -545,6 +563,7 @@ var unitFn = {
 
                 $(selector).find(".reload").on('click', function() {
                     $(selector).find(".drop_box").html('');
+                    $(selector).find("input").val('');
                 });
             }
 
