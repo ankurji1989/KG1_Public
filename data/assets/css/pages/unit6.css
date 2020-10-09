@@ -125,6 +125,22 @@
 .unit_6_lesson_4 .exercise1 .bottomBox .leftBox{width: 38%;float: left;padding:0px 10px;}
 .unit_6_lesson_4 .exercise1 .bottomBox .rightBox{width: 62%;float: left;padding:0px 10px;}
 .unit_6_lesson_4 .exercise1 .bottomBox .rightBox > div{margin:10px 0px;}
+
+.unit_6_lesson_4 .exercise1 .paragraph{width: 100%;float: left;display: flex;}
+.unit_6_lesson_4 .exercise1 .paragraph > div{display: flex;align-items: flex-end;float: left;flex-grow: 0;flex-shrink: 0;}
+.unit_6_lesson_4 .exercise1 .paragraph1 > div:nth-of-type(1){width:62%;}
+.unit_6_lesson_4 .exercise1 .paragraph1 > div:nth-of-type(1) img{position: relative;bottom:-20%;}
+.unit_6_lesson_4 .exercise1 .paragraph1 > div:nth-of-type(2){width:10%;}
+.unit_6_lesson_4 .exercise1 .paragraph1 > div:nth-of-type(3){width:2%;}
+
+.unit_6_lesson_4 .exercise1 .paragraph2 > div:nth-of-type(1){width:47%;}
+.unit_6_lesson_4 .exercise1 .paragraph2 > div:nth-of-type(2){width:15%;}
+.unit_6_lesson_4 .exercise1 .paragraph2 > div:nth-of-type(3){width:2%;}
+
+.unit_6_lesson_4 .exercise1 .spclTexbox{width: 100%;border-top: 1px solid #5eccf5;border-bottom: 1px solid #5eccf5; position: relative;padding:0px 5px;font-size: 40px;font-family: 'Quicksand', sans-serif;font-weight: bold;}
+.unit_6_lesson_4 .exercise1 .spclTexbox:after{position: absolute; z-index: 0; content: ' '; height: 2px;left:0px;right:0px;top:calc(50% - 1px);background: url('../../images/globle_images/textbox_border.png') left center repeat-x;}
+.unit_6_lesson_4 .exercise1 .spclTexbox input{width:100%;border:0px;margin:0px;height: auto;padding:0px; position: relative;z-index: 2;background: none; font-size: inherit; font-family: inherit; font-weight: inherit;color: #231f20;}
+.unit_6_lesson_4 .exercise1 .spclTexbox div{padding:0px 5px; position: absolute; left: 0px;right:0px;top:0px;bottom: 0px;z-index: 1;font-size: inherit; font-family: inherit;color:#ccc;font-weight: inherit;}
 /********************** unit_6_lesson_4 .exercise_1 End ********************/
 
 /********************** unit_6_lesson_4 .exercise_2 Start ********************/
@@ -157,6 +173,23 @@
 .unit_6_lesson_4 .exercise2 .bottomBox .leftBox{width: 27%;float: left;padding:0px 10px;}
 .unit_6_lesson_4 .exercise2 .bottomBox .rightBox{width: 63%;float: left;padding:0px 10px;}
 .unit_6_lesson_4 .exercise2 .bottomBox .rightBox > div{margin:10px 0px;}
+
+.unit_6_lesson_4 .exercise2 .paragraph{width: 100%;float: left;display: flex;}
+.unit_6_lesson_4 .exercise2 .paragraph > div{display: flex;align-items: flex-end;float: left;flex-grow: 0;flex-shrink: 0;}
+.unit_6_lesson_4 .exercise2 .paragraph1 > div:nth-of-type(1){width:46%;}
+.unit_6_lesson_4 .exercise2 .paragraph1 > div:nth-of-type(1) img{position: relative;bottom:-20%;}
+.unit_6_lesson_4 .exercise2 .paragraph1 > div:nth-of-type(2){width:20%;}
+.unit_6_lesson_4 .exercise2 .paragraph1 > div:nth-of-type(3){width:2%;}
+
+.unit_6_lesson_4 .exercise2 .paragraph2 > div:nth-of-type(1){width:50%;}
+.unit_6_lesson_4 .exercise2 .paragraph2 > div:nth-of-type(1) img{position: relative;bottom:-20%;}
+.unit_6_lesson_4 .exercise2 .paragraph2 > div:nth-of-type(2){width:24%;}
+.unit_6_lesson_4 .exercise2 .paragraph2 > div:nth-of-type(3){width:2%;}
+
+.unit_6_lesson_4 .exercise2 .spclTexbox{width: 100%;border-top: 1px solid #5eccf5;border-bottom: 1px solid #5eccf5; position: relative;padding:0px 5px;font-size: 40px;font-family: 'Quicksand', sans-serif;font-weight: bold;}
+.unit_6_lesson_4 .exercise2 .spclTexbox:after{position: absolute; z-index: 0; content: ' '; height: 2px;left:0px;right:0px;top:calc(50% - 1px);background: url('../../images/globle_images/textbox_border.png') left center repeat-x;}
+.unit_6_lesson_4 .exercise2 .spclTexbox input{width:100%;border:0px;margin:0px;height: auto;padding:0px; position: relative;z-index: 2;background: none; font-size: inherit; font-family: inherit; font-weight: inherit;color: #231f20;}
+.unit_6_lesson_4 .exercise2 .spclTexbox div{padding:0px 5px; position: absolute; left: 0px;right:0px;top:0px;bottom: 0px;z-index: 1;font-size: inherit; font-family: inherit;color:#ccc;font-weight: inherit;}
 /********************** unit_6_lesson_4 .exercise_2 End ********************/
 
 /********************** unit_6_lesson_5 .exercise_1 Start ********************/
