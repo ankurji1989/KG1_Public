@@ -469,6 +469,52 @@ var unitFn = {
             }
 
             function exerciseFn_2() {
+                const selector = $(".unit_6_lesson_2 .exercise2");
+                let isAnswerCorrected = false;
+
+                $(selector).find(".topBox .leftBox .selectionArea").click(function(){
+                    $(selector).find(".topBox .leftBox .selectionArea").removeClass('selected');
+                    $(this).addClass('selected');
+                });
+
+                $(selector).find(".topBox .rightBox .selectionArea").click(function(){
+                    $(selector).find(".topBox .rightBox .selectionArea").removeClass('selected');
+                    $(this).addClass('selected');
+                });
+
+                $(selector).find('.colorImageBox').click(function(){
+                    $(this).toggleClass('selected');
+                });
+
+                $(selector).find(".dreg_box").draggable({revert: "invalid"});
+
+                $(selector).find(".drop_box").droppable({
+                    drop: function(event, ui) {
+                        $(this).addClass('selected');
+                    }
+                });
+
+                $(selector).find(".submit_btn").on('click', function() {
+                     const selection = $(selector).find(".topBox .leftBox .selectionArea.area2").hasClass('selected') && $(selector).find(".topBox .rightBox .selectionArea.area2").hasClass('selected') ? true : false;
+                     const catColor = $(selector).find('.colorImageBox.in').hasClass("selected") ? true : false;
+                     const dropBox = $(selector).find(".drop_box ").hasClass("selected") ? true : false;
+                     isAnswerCorrected = selection && catColor && dropBox ? true : false
+                    checkStatus(selector, isAnswerCorrected);
+                });
+
+                $(selector).find(".close_popup").off("click").on("click", function() {
+                    closePopup(selector);
+                });
+
+                $(selector).find(".reload").on('click', function() {
+                    $(selector).find(".topBox .selectionArea").removeClass('selected');
+                    $(selector).find('.colorImageBox').removeClass('selected');
+
+                    $(selector).find(".drop_box ").removeClass("selected");
+                    $(selector).find(".dreg_box").animate({top: "0px", left: "0px"});
+
+                    $(selector).find('.statusIcon').removeClass('visible');
+                });
             }
         }
 
@@ -1267,9 +1313,55 @@ var unitFn = {
             exerciseFn_2();
 
             function exerciseFn_1() {
+                const selector = $(".unit_8_lesson_3 .exercise1");
+                let isAnswerCorrected = false;
+
+                $(selector).find(".shape").click(function(){
+                    $(this).toggleClass("selected");
+                });
+
+                $(selector).find(".submit_btn").on('click', function() {
+                    const row1Shape = $(selector).find('.row1 .circle.selected').length;
+                    const row2Shape = $(selector).find('.row2 .triangle.selected').length;
+                    const row3Shape = $(selector).find('.row3 .square.selected').length;
+
+                    isAnswerCorrected = row1Shape === 5 && row2Shape === 4 && row3Shape === 3 ? true : false;
+
+                    checkStatus(selector, isAnswerCorrected);
+                });
+
+                $(selector).find(".close_popup").off("click").on("click", function() {
+                    closePopup(selector);
+                });
+
+                $(selector).find(".reload").on('click', function() {
+                    $(selector).find(".shape").removeClass("selected");
+                });
             }
 
             function exerciseFn_2() {
+                const selector = $(".unit_8_lesson_3 .exercise2");
+                let isAnswerCorrected = false;
+
+                $(selector).find(".shape").click(function(){
+                    $(this).toggleClass("selected");
+                });
+
+                $(selector).find(".submit_btn").on('click', function() {
+                    const totalShape = $(selector).find('.shape.selected').length;
+
+                    isAnswerCorrected = totalShape === 12 ? true : false;
+
+                    checkStatus(selector, isAnswerCorrected);
+                });
+
+                $(selector).find(".close_popup").off("click").on("click", function() {
+                    closePopup(selector);
+                });
+
+                $(selector).find(".reload").on('click', function() {
+                    $(selector).find(".shape").removeClass("selected");
+                });
             }
         }
 
