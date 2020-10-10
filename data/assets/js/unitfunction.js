@@ -879,6 +879,7 @@ var unitFn = {
                 $(selector).find(".reload").on('click', function() {
                     $(selector).find(".clickArea > div").removeClass("selected");
                     $(selector).find(".circle").removeClass("selected");
+                    
                 });
             }
         }
@@ -920,6 +921,7 @@ var unitFn = {
                 $(selector).find(".reload").on('click', function() {
                     $(selector).find("input").val('');
                     $(selector).find(".selectionArea").removeClass("selected");
+                    $(selector).find('.statusIcon').removeClass('visible');
                 });
             }
         }

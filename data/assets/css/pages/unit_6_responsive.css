@@ -1,3 +1,7 @@
+@media (max-width: 767px){
+    .unit_6_lesson_4 .exercise1 .spclTexbox{font-size: 4vw;}
+    .unit_6_lesson_4 .exercise2 .spclTexbox{font-size: 4vw;}
+}
 @media (max-width: 480px){
 /********************** unit_6_lesson_1 .exercise_1 Start ********************/
 .unit_6_lesson_1 .exercise1 .numberBox {float:none;margin:0px auto;}
@@ -37,4 +41,8 @@
 .unit_6_lesson_2 .exercise1 .fullBox .bottomBox .rightBox .numBox.down{right: -3%;}
 .unit_6_lesson_2 .exercise1 .fullBox .bottomBox .rightBox .numBox.up{ left: 4%;}
 .unit_6_lesson_2 .exercise1 .fullBox .bottomBox .leftBox .numBox.down{bottom: 33%;}
+.unit_6_lesson_4 .exercise1 .paragraph1 > div:nth-of-type(2){width: 17%;}
+.unit_6_lesson_4 .exercise1 .paragraph2 > div:nth-of-type(2){width: 25%;}
+.unit_6_lesson_4 .exercise2 .paragraph1 > div:nth-of-type(2){width: 30%;}
+.unit_6_lesson_4 .exercise2 .paragraph2 > div:nth-of-type(2){ width: 36%;}
 }
