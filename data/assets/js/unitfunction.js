@@ -1180,20 +1180,39 @@ var unitFn = {
                 const selector = $(".unit_8_lesson_1 .exercise2");
                 const imageSrc = 'data/assets/images/unit_8/Lesson_1/Page_2/';
                 let isAnswerCorrected = false;
+                let colorCode = '';
 
                 $(selector).find(".matchDot").click(function(){
                     $(this).addClass('selected');
                 });
 
+                $(selector).find(".colorDot").click(function() {
+                    $(selector).find(".colorDot").removeClass("selected");
+                    $(this).addClass("selected");
+                    colorCode = $(this).data("color");
+                });
+
+                $(selector).find(".topBox .imageBox > div div").click(function(){
+                    $(this).removeClass();
+                    $(this).addClass(colorCode);
+                });
+
                 $(selector).find(".submit_btn").on('click', function() {
                     const matchbox1 = $(selector).find('.matchbox1 .matchDot.selected').length;
-
                     if(matchbox1 === 2) {
                         const replaceImg = $(selector).find(".matchbox1 img").data('replace-image');
                         $(selector).find(".matchbox1 img").attr('src', imageSrc + replaceImg);
                     }
 
-                    isAnswerCorrected = matchbox1 === 2 ? true : false;
+                    isAnswerCorrected = matchbox1 === 2 &&
+                    $(selector).find(".topBox .imageBox > div:nth-of-type(1) div").hasClass("red") &&
+                    $(selector).find(".topBox .imageBox > div:nth-of-type(2) div").hasClass("yellow") &&
+                    $(selector).find(".topBox .imageBox > div:nth-of-type(3) div").hasClass("yellow") &&
+                    $(selector).find(".topBox .imageBox > div:nth-of-type(4) div").hasClass("green") &&
+                    $(selector).find(".topBox .imageBox > div:nth-of-type(5) div").hasClass("green") &&
+                    $(selector).find(".topBox .imageBox > div:nth-of-type(6) div").hasClass("red") &&
+                    $(selector).find(".topBox .imageBox > div:nth-of-type(7) div").hasClass("yellow") ? true : false;
+
                     checkStatus(selector, isAnswerCorrected);
                 });
 
@@ -1202,6 +1221,10 @@ var unitFn = {
                 });
 
                 $(selector).find(".reload").on('click', function() {
+                    $(selector).find(".colorDot").removeClass("selected");
+                    $(selector).find(".topBox .imageBox > div div").removeClass();
+                    colorCode = '';
+
                     $(selector).find(".matchDot").removeClass("selected");
                     
                     const orignalImg1 = $(selector).find(".matchbox1 img").data('orignal-image');
@@ -1350,7 +1373,7 @@ var unitFn = {
                 $(selector).find(".submit_btn").on('click', function() {
                     const totalShape = $(selector).find('.shape.selected').length;
 
-                    isAnswerCorrected = totalShape === 12 ? true : false;
+                    isAnswerCorrected = totalShape === 13 ? true : false;
 
                     checkStatus(selector, isAnswerCorrected);
                 });

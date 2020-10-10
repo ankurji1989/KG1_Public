@@ -35,8 +35,45 @@
 .unit_8_lesson_1 .exercise2 .topBox{width: 100%;float: left;display: flex;justify-content: center;padding:0px 15px;}
 .unit_8_lesson_1 .exercise2 .topBox .leftBox{width: 75%;}
 .unit_8_lesson_1 .exercise2 .topBox .rightBox{width: 25%; text-align: center;}
-.unit_8_lesson_1 .exercise2 .topBox .imageBox{width: 100%;float: left; position: relative;}
-.unit_8_lesson_1 .exercise2 .topBox .imageBox img{width: 100%; max-height: 210px;}
+.unit_8_lesson_1 .exercise2 .topBox .imageBox{width: 100%;float: left; position: relative;display: flex;background: #91d9f8;border:2px solid #245ea2;border-radius: 15px;overflow: hidden;padding:0px 0px 5px 0px;}
+.unit_8_lesson_1 .exercise2 .image2{position: absolute;left:0px;right:0px;top:0px;}
+.unit_8_lesson_1 .exercise2 .topBox .imageBox > div{width: 15%;margin:0px 5px;}
+.unit_8_lesson_1 .exercise2 .topBox .imageBox > div img{max-height: 200px;width: 100%;float: left;}
+.unit_8_lesson_1 .exercise2 .topBox .imageBox > div:nth-child(2n+1) div{margin-top:-50%;}
+.unit_8_lesson_1 .exercise2 .topBox .imageBox > div:nth-of-type(1) div{width:100%;float:left;background: url('../../images/unit_8/Lesson_1/Page_2/17.png') center top no-repeat; background-size: auto 100%;}
+.unit_8_lesson_1 .exercise2 .topBox .imageBox > div:nth-of-type(1) div.yellow{background: url('../../images/unit_8/Lesson_1/Page_2/17_yellow.png') center top no-repeat; background-size: auto 100%;}
+.unit_8_lesson_1 .exercise2 .topBox .imageBox > div:nth-of-type(1) div.red{background: url('../../images/unit_8/Lesson_1/Page_2/17_red.png') center top no-repeat; background-size: auto 100%;}
+.unit_8_lesson_1 .exercise2 .topBox .imageBox > div:nth-of-type(1) div.green{background: url('../../images/unit_8/Lesson_1/Page_2/17_green.png') center top no-repeat; background-size: auto 100%;}
+
+.unit_8_lesson_1 .exercise2 .topBox .imageBox > div:nth-of-type(2) div{width:100%;float:left;background: url('../../images/unit_8/Lesson_1/Page_2/16.png') center top no-repeat; background-size: auto 100%;}
+.unit_8_lesson_1 .exercise2 .topBox .imageBox > div:nth-of-type(2) div.yellow{background: url('../../images/unit_8/Lesson_1/Page_2/16_yellow.png') center top no-repeat; background-size: auto 100%;}
+.unit_8_lesson_1 .exercise2 .topBox .imageBox > div:nth-of-type(2) div.red{background: url('../../images/unit_8/Lesson_1/Page_2/16_red.png') center top no-repeat; background-size: auto 100%;}
+.unit_8_lesson_1 .exercise2 .topBox .imageBox > div:nth-of-type(2) div.green{background: url('../../images/unit_8/Lesson_1/Page_2/16_green.png') center top no-repeat; background-size: auto 100%;}
+
+.unit_8_lesson_1 .exercise2 .topBox .imageBox > div:nth-of-type(3) div{width:100%;float:left;background: url('../../images/unit_8/Lesson_1/Page_2/16.png') center top no-repeat; background-size: auto 100%;}
+.unit_8_lesson_1 .exercise2 .topBox .imageBox > div:nth-of-type(3) div.yellow{background: url('../../images/unit_8/Lesson_1/Page_2/16_yellow.png') center top no-repeat; background-size: auto 100%;}
+.unit_8_lesson_1 .exercise2 .topBox .imageBox > div:nth-of-type(3) div.red{background: url('../../images/unit_8/Lesson_1/Page_2/16_red.png') center top no-repeat; background-size: auto 100%;}
+.unit_8_lesson_1 .exercise2 .topBox .imageBox > div:nth-of-type(3) div.green{background: url('../../images/unit_8/Lesson_1/Page_2/16_green.png') center top no-repeat; background-size: auto 100%;}
+
+.unit_8_lesson_1 .exercise2 .topBox .imageBox > div:nth-of-type(4) div{width:100%;float:left;background: url('../../images/unit_8/Lesson_1/Page_2/18.png') center top no-repeat; background-size: auto 100%;}
+.unit_8_lesson_1 .exercise2 .topBox .imageBox > div:nth-of-type(4) div.yellow{background: url('../../images/unit_8/Lesson_1/Page_2/18_yellow.png') center top no-repeat; background-size: auto 100%;}
+.unit_8_lesson_1 .exercise2 .topBox .imageBox > div:nth-of-type(4) div.red{background: url('../../images/unit_8/Lesson_1/Page_2/18_red.png') center top no-repeat; background-size: auto 100%;}
+.unit_8_lesson_1 .exercise2 .topBox .imageBox > div:nth-of-type(4) div.green{background: url('../../images/unit_8/Lesson_1/Page_2/18_green.png') center top no-repeat; background-size: auto 100%;}
+
+.unit_8_lesson_1 .exercise2 .topBox .imageBox > div:nth-of-type(5) div{width:100%;float:left;background: url('../../images/unit_8/Lesson_1/Page_2/18.png') center top no-repeat; background-size: auto 100%;}
+.unit_8_lesson_1 .exercise2 .topBox .imageBox > div:nth-of-type(5) div.yellow{background: url('../../images/unit_8/Lesson_1/Page_2/18_yellow.png') center top no-repeat; background-size: auto 100%;}
+.unit_8_lesson_1 .exercise2 .topBox .imageBox > div:nth-of-type(5) div.red{background: url('../../images/unit_8/Lesson_1/Page_2/18_red.png') center top no-repeat; background-size: auto 100%;}
+.unit_8_lesson_1 .exercise2 .topBox .imageBox > div:nth-of-type(5) div.green{background: url('../../images/unit_8/Lesson_1/Page_2/18_green.png') center top no-repeat; background-size: auto 100%;}
+
+.unit_8_lesson_1 .exercise2 .topBox .imageBox > div:nth-of-type(6) div{width:100%;float:left;background: url('../../images/unit_8/Lesson_1/Page_2/17.png') center top no-repeat; background-size: auto 100%;}
+.unit_8_lesson_1 .exercise2 .topBox .imageBox > div:nth-of-type(6) div.yellow{background: url('../../images/unit_8/Lesson_1/Page_2/17_yellow.png') center top no-repeat; background-size: auto 100%;}
+.unit_8_lesson_1 .exercise2 .topBox .imageBox > div:nth-of-type(6) div.red{background: url('../../images/unit_8/Lesson_1/Page_2/17_red.png') center top no-repeat; background-size: auto 100%;}
+.unit_8_lesson_1 .exercise2 .topBox .imageBox > div:nth-of-type(6) div.green{background: url('../../images/unit_8/Lesson_1/Page_2/17_green.png') center top no-repeat; background-size: auto 100%;}
+
+.unit_8_lesson_1 .exercise2 .topBox .imageBox > div:nth-of-type(7) div{width:100%;float:left;background: url('../../images/unit_8/Lesson_1/Page_2/16.png') center top no-repeat; background-size: auto 100%;}
+.unit_8_lesson_1 .exercise2 .topBox .imageBox > div:nth-of-type(7) div.yellow{background: url('../../images/unit_8/Lesson_1/Page_2/16_yellow.png') center top no-repeat; background-size: auto 100%;}
+.unit_8_lesson_1 .exercise2 .topBox .imageBox > div:nth-of-type(7) div.red{background: url('../../images/unit_8/Lesson_1/Page_2/16_red.png') center top no-repeat; background-size: auto 100%;}
+.unit_8_lesson_1 .exercise2 .topBox .imageBox > div:nth-of-type(7) div.green{background: url('../../images/unit_8/Lesson_1/Page_2/16_green.png') center top no-repeat; background-size: auto 100%;}
 
 .unit_8_lesson_1 .exercise2 .border_line{width: 100%;float: left;}
 .unit_8_lesson_1 .exercise2 .border_line img{width: 100%;max-height: 40px;}
@@ -163,20 +200,35 @@
 
 .unit_8_lesson_3 .exercise2 .shape{position: absolute;}
 .unit_8_lesson_3 .exercise2 .shape img{width: 100%;}
-.unit_8_lesson_3 .exercise2 .circle1{width: 18%;left: 17%;top: 2%;}
-.unit_8_lesson_3 .exercise2 .circle2{left: 26%;bottom: 21%;width: 9%;}
-.unit_8_lesson_3 .exercise2 .square1{right: 13%;bottom: 6%;width: 11.5%;}
-.unit_8_lesson_3 .exercise2 .square2{right: 15%;bottom: 22.5%;width: 8%;}
-.unit_8_lesson_3 .exercise2 .square3{right: 15.8%;bottom: 34.5%;width: 6.5%;}
-.unit_8_lesson_3 .exercise2 .flag{right: 13%;bottom: 43.5%;width: 6%;}
-.unit_8_lesson_3 .exercise2 .rectangle{right: 37%;bottom: 28%;width: 23%;}
-.unit_8_lesson_3 .exercise2 .triangle1{right: 46%;bottom: 39.5%;width: 17%;}
-.unit_8_lesson_3 .exercise2 .triangle2{right: 38%;bottom: 39.5%;width: 7%;}
+.unit_8_lesson_3 .exercise2 .circle1{width: 18%;left: 17%;top: 2%; background: url('../../images/unit_8/Lesson_3/Page_2/circle1.png') center center no-repeat; background-size: 100% 100%;}
+.unit_8_lesson_3 .exercise2 .circle1.selected{background: url('../../images/unit_8/Lesson_3/Page_2/circle1_color.png') center center no-repeat; background-size: 100% 100%;}
+.unit_8_lesson_3 .exercise2 .circle2{left: 26%;bottom: 21%;width: 9%;background: url('../../images/unit_8/Lesson_3/Page_2/circle2.png') center center no-repeat; background-size: 100% 100%;}
+.unit_8_lesson_3 .exercise2 .circle2.selected{background: url('../../images/unit_8/Lesson_3/Page_2/circle2_color.png') center center no-repeat; background-size: 100% 100%;}
 
-.unit_8_lesson_3 .exercise2 .roket1{right: 38.7%;top: 17%;width: 7%;}
-.unit_8_lesson_3 .exercise2 .roket2{right: 11%;top: 18%;width: 30%;}
-.unit_8_lesson_3 .exercise2 .roket2_1{right: 27%;top: 17%;width: 5%;}
-.unit_8_lesson_3 .exercise2 .roket2_2{right: 30%;top: 29%;width: 5%;}
+.unit_8_lesson_3 .exercise2 .square1{right: 13%;bottom: 6%;width: 11.5%;background: url('../../images/unit_8/Lesson_3/Page_2/square1.png') center center no-repeat; background-size: 100% 100%;}
+.unit_8_lesson_3 .exercise2 .square1.selected{background: url('../../images/unit_8/Lesson_3/Page_2/square1_color.png') center center no-repeat; background-size: 100% 100%;}
+.unit_8_lesson_3 .exercise2 .square2{right: 15%;bottom: 22.5%;width: 8%;background: url('../../images/unit_8/Lesson_3/Page_2/square2.png') center center no-repeat; background-size: 100% 100%;}
+.unit_8_lesson_3 .exercise2 .square2.selected{background: url('../../images/unit_8/Lesson_3/Page_2/square2_color.png') center center no-repeat; background-size: 100% 100%;}
+.unit_8_lesson_3 .exercise2 .square3{right: 15.8%;bottom: 34.5%;width: 6.5%;background: url('../../images/unit_8/Lesson_3/Page_2/square3.png') center center no-repeat; background-size: 100% 100%;}
+.unit_8_lesson_3 .exercise2 .square3.selected{background: url('../../images/unit_8/Lesson_3/Page_2/square3_color.png') center center no-repeat; background-size: 100% 100%;}
+
+.unit_8_lesson_3 .exercise2 .flag{right: 13%;bottom: 43.5%;width: 6%;background: url('../../images/unit_8/Lesson_3/Page_2/flag.png') center center no-repeat; background-size: 100% 100%;}
+.unit_8_lesson_3 .exercise2 .flag.selected{background: url('../../images/unit_8/Lesson_3/Page_2/flag_color.png') center center no-repeat; background-size: 100% 100%;}
+.unit_8_lesson_3 .exercise2 .rectangle{right: 37%;bottom: 28%;width: 23%;background: url('../../images/unit_8/Lesson_3/Page_2/rectangle.png') center center no-repeat; background-size: 100% 100%;}
+.unit_8_lesson_3 .exercise2 .rectangle.selected{background: url('../../images/unit_8/Lesson_3/Page_2/rectangle_color.png') center center no-repeat; background-size: 100% 100%;}
+.unit_8_lesson_3 .exercise2 .triangle1{right: 46%;bottom: 39.5%;width: 17%;background: url('../../images/unit_8/Lesson_3/Page_2/triangle1.png') center center no-repeat; background-size: 100% 100%;}
+.unit_8_lesson_3 .exercise2 .triangle1.selected{background: url('../../images/unit_8/Lesson_3/Page_2/triangle1_color.png') center center no-repeat; background-size: 100% 100%;}
+.unit_8_lesson_3 .exercise2 .triangle2{right: 38%;bottom: 39.5%;width: 7%;background: url('../../images/unit_8/Lesson_3/Page_2/triangle2.png') center center no-repeat; background-size: 100% 100%;}
+.unit_8_lesson_3 .exercise2 .triangle2.selected{background: url('../../images/unit_8/Lesson_3/Page_2/triangle2_color.png') center center no-repeat; background-size: 100% 100%;}
+
+.unit_8_lesson_3 .exercise2 .roket1{right: 38.7%;top: 17%;width: 7%;background: url('../../images/unit_8/Lesson_3/Page_2/roket1.png') center center no-repeat; background-size: 100% 100%;}
+.unit_8_lesson_3 .exercise2 .roket1.selected{background: url('../../images/unit_8/Lesson_3/Page_2/roket1_color.png') center center no-repeat; background-size: 100% 100%;}
+.unit_8_lesson_3 .exercise2 .roket2{right: 11%;top: 18%;width: 30%;background: url('../../images/unit_8/Lesson_3/Page_2/roket2.png') center center no-repeat; background-size: 100% 100%;}
+.unit_8_lesson_3 .exercise2 .roket2.selected{background: url('../../images/unit_8/Lesson_3/Page_2/roket2_color.png') center center no-repeat; background-size: 100% 100%;}
+.unit_8_lesson_3 .exercise2 .roket2_1{right: 27%;top: 17%;width: 5%;background: url('../../images/unit_8/Lesson_3/Page_2/roket2_1.png') center center no-repeat; background-size: 100% 100%;}
+.unit_8_lesson_3 .exercise2 .roket2_1.selected{background: url('../../images/unit_8/Lesson_3/Page_2/roket2_1_color.png') center center no-repeat; background-size: 100% 100%;}
+.unit_8_lesson_3 .exercise2 .roket2_2{right: 30%;top: 29%;width: 5%;background: url('../../images/unit_8/Lesson_3/Page_2/roket2_2.png') center center no-repeat; background-size: 100% 100%;}
+.unit_8_lesson_3 .exercise2 .roket2_2.selected{background: url('../../images/unit_8/Lesson_3/Page_2/roket2_2_color.png') center center no-repeat; background-size: 100% 100%;}
 /**********************.unit_8_lesson_3 .exercise_2 Start ********************/
 
 /**********************.unit_8_lesson_4 .exercise_1 Start ********************/
