@@ -1,9 +1,13 @@
 
 @media (max-width: 767px){
     .unit_5_lesson_1 .exercise1{height: auto;}
+    .up1{margin-left: 0;}
+    .down1 {  margin-right: 0px;  float: right;  margin-top: 0px; }
+    .unit_5_lesson_1 .exercise1 .numberBox2.heading1 { margin: 0px 0px 0px 0%;}
     .unit_5_lesson_1 .exercise1 .numberBox2 > .imageBox{width: 69%;}
     .unit_5_lesson_2 .exercise1 .border_line{ position: sticky;}
-    .unit_5_lesson_1 .exercise2 .numberBox .box{padding: 15px;float: left;margin: 0px 0px 19px 42px;max-width: 502px;}
+    .unit_5_lesson_1 .exercise2 .numberBox .box{padding: 15px;float: left;margin: 0px 0px 19px 42px;max-width: 400px;}
+	.unit_5_lesson_1 .exercise2 .numberBox1 .box{padding: 15px;float: left;margin: 0px 0px 19px 42px;max-width: 400px;top:-50px;}
     .unit_5_lesson_1 .exercise2 .handimage{float: right;position: static;}
     .unit_5_lesson_1 .exercise2{ background: #fff;}
     .unit_5_lesson_2 .exercise1 .fullBox .topBox{height: auto;}
@@ -14,6 +18,7 @@
     .unit_5_lesson_6 .exercise1 .fullBox{margin-bottom: 140px;}
     .unit_5_lesson_6 .exercise1 .fullBox .flexBox{height: 72%;}
     .unit_5_lesson_6 .exercise1 .flexBox input{ font-size: 40px;}
+	.homework{bottom:0px;}
 
     .unit_6_lesson_1 .exercise1{ height: auto;}
     .unit_6_lesson_1 .exercise1 .numberBox2{max-width: 85%;}
@@ -31,6 +36,9 @@
     .unit_8_lesson_4 .exercise1 .fullBox{margin: 2% 0px 7% 0px;}
     .unit_5_lesson_5 .exercise1 .spclTexbox{font-size: 4vw;}
     .unit_5_lesson_5 .exercise2 .spclTexbox{font-size: 4vw;}
+
+
+
     
 }
 @media (max-width: 480px){
@@ -38,6 +46,11 @@
 .unit_5_lesson_1 .exercise1 .numberBox {float:none;margin:0px auto;}
 .unit_5_lesson_1 .exercise1 .numberBox2.heading1{margin: 0px; }
 .unit_5_lesson_1 .exercise1{padding: 10px;}
+.unit_5_lesson_1 .exercise1 .numberBox2.heading1 { margin: 0px 0px 0px 0%;}
+.unit_5_lesson_1 .exercise2 .balloonBox .box{ top: 0; margin-left: 0; }
+.down1 { margin-right: 50px; float: right; margin-top: 10px;}
+.unit_5_lesson_2 .exercise2 .fullBox .topBox .imageBox {width: 100%; max-width: 385px; margin: 0px auto; padding: 0px 10px; text-align: center;}
+.up1 {margin-left: 0;}
 /********************** unit_5_lesson_1 .exercise_1 End **********************/
 
 /********************** unit_5_lesson_1 .exercise_2 Start ********************/
@@ -61,7 +74,7 @@
 
 /********************** unit_5_lesson_3 .exercise_3 Start ********************/
 .unit_5_lesson_3 .exercise1 .numberBox{float: none;margin: auto;}
-.unit_5_lesson_3 .exercise1{padding: 10px; height: 100%;}
+.unit_5_lesson_3 .exercise1{padding: 10px; height: 120%;}
 /********************** unit_5_lesson_3 .exercise_1 end ********************/
 
 /********************** unit_5_lesson_3 .exercise_2 Start ********************/
@@ -77,6 +90,15 @@
 /********************** unit_5_lesson_4 .exercise_1 End ********************/
 .unit_5_lesson_4 .exercise3 .fullBox{height: 71%;padding-left: 13px;}
 .unit_5_lesson_6 .exercise1 .fullBox .flexBox{ width: 100%; height: 52%;}
+
+
+.unit_5_lesson_3 .exercise2 .fullBox .numberBox .box{top: 0;}
+.unit_5_lesson_6 .exercise2 .fullBox .rightBox .numberBox {
+    margin: 30% 0px 0px 0px;
+}
+.unit_5_lesson_6 .exercise2 .fullBox .leftBox .numberBox {
+    margin: 36% 0px 0px 0px;
+}
 
 }
 

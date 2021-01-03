@@ -12,7 +12,15 @@
 .submit_btn{ width: 50px; float: left; height: auto; }
 .reload{ width: 50px; float: left; height: auto; }
 
-
+.miidle-center-box{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+.miidle-center-box .middle-box{
+    display: table-cell;
+    vertical-align: middle;
+}
 /********** Input Arrow None ***********/
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -52,7 +60,12 @@ input::-webkit-inner-spin-button {
 
 
 .global .header_part {height: auto; position: relative;}
-.global .left_pointer_img {position: absolute;left: -35px;top: -60px;z-index: 9;}
+.global .left_pointer_img {
+    position: fixed;
+    left: 0px;
+    top: 10px;
+    z-index: 9;}
+
 .global .left_pointer_img img{max-width: 100%;}
 
 @media (max-width: 360px){
@@ -89,10 +102,16 @@ input::-webkit-inner-spin-button {
 .global .left_pointer_img{position: relative;text-align: center;left: 0px;top: 0px;}
 }
 
+@media (max-width: 480px){
+   .dynamicpagediv .global .botton_box { position: fixed !important;  right: 16px !important; bottom: 42px !important;}
+}
+@media (max-width: 767px){
+    .dynamicpagediv .global .botton_box { position: fixed !important; /*right: 35px !important;*/  bottom: 44px !important;}
+}
 
-.global .botton_box{position: fixed !important;right: 45px !important;bottom: 41px !important;}
+.global .botton_box{position: fixed !important;right: 40px !important;bottom: 50px !important;}
 .global .exercise {width: 100%;float: left;}
-.global .statusIcon{position: absolute !important;width: 36px !important; display: none !important;}
+.global .statusIcon{position: absolute !important;width: 36px !important; display: none;}
 .global .statusIcon.visible{display: inline-block !important;}
 @media only screen and (max-height: 500px), (max-width: 767px){
 .global.lesson{overflow: auto;overflow-x: hidden; background: #fff;}
@@ -101,3 +120,55 @@ input::-webkit-inner-spin-button {
 .global .left_pointer_img img{max-height: 90px;}
 .global .fullBox{margin-top:0px !important;}
 }
+
+.turnScreenMsg {
+    display: flex;
+    position: fixed !important;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.turnScreenMsg h5 {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background: #fff;
+    border: 4px solid #D64686;
+    border-radius: 20px;
+    padding: 15px 10px;
+    position: relative;
+    color: #D64686;
+    font-size: 22px;
+}
+
+.turnScreenMsg h5 img:not(.closeTrunMsg) {
+    max-width: 30%;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.closeTrunMsg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(50%, -50%);
+    cursor: pointer;
+}
+
+@media(min-width: 481px) {
+    .turnScreenMsg {
+        display: none !important;
+    }
+}
+
+img.closeTrunMsg {
+    width: auto;
+}
+
+

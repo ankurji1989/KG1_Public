@@ -1,8 +1,119 @@
+<link rel="stylesheet" href="data/assets/css/mamkg1_unit3.css">
+
         <div class="dynamicpagediv insideframepadding">
             <div id="header"></div>
             
             <div class="lesson">
                 <!-- "Read" exercise start -->
+				<div class="exercise interactive white">
+			<div class="bgimgwrapper dynamicpagediv white">
+				<div class="topleftlogo clearfix" id="topleftlogo" onclick="play('data/assets/audio/match.mp3')">
+					<div class="pointer inline">
+						<img src="data/assets/images/unit3/mamkg_green_match.png" alt="match" class="logoinside">
+					</div>
+					<img src="data/assets/images/unit3/mamkg_green_text.png" alt="match" class="textinside">
+				</div>
+				
+				
+				
+				<div class="manual3col_mamkg1 clearfix">
+					<div class="container mamwidth_100">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="mactchone_tofive">
+									<div>
+										<span class="mamkg1unit3_circleRound left_star point0 matchq" data-match="0"></span>
+										<div class="div_numbring">zero</div>
+									</div>
+									<div>
+										<span class="mamkg1unit3_circleRound left_star point1 matchq" data-match="1"></span><div class="div_numbring">one</div>
+									</div>
+									<div>
+										<span class="mamkg1unit3_circleRound left_star point2 matchq" data-match="2"></span><div class="div_numbring">two</div>
+									</div>
+									<div>
+										<span class="mamkg1unit3_circleRound left_star point3 matchq" data-match="3"></span><div class="div_numbring">three</div>
+									</div>
+									<div>
+										<span class="mamkg1unit3_circleRound left_star point4 matchq" data-match="4"></span><div class="div_numbring">four</div>
+									</div>
+									<div>
+										<span class="mamkg1unit3_circleRound left_star point5 matchq" data-match="5"></span><div class="div_numbring">five</div>
+									</div>
+								</div>
+							</div>
+							<div class="matchlines">
+							<div class='linemu6l0 mline' matchLinesAttr="" style="display:none;">
+							  </div>
+							 <div class='linemu6l1 mline' matchLinesAttr="" style="display:none;">
+							  </div>
+							  <div class='linemu6l2 mline' matchLinesAttr="" style="display:none;">
+							  </div>
+							  <div class='linemu6l3 mline' matchLinesAttr="" style="display:none;">
+							  </div>
+							  <div class='linemu6l4 mline' matchLinesAttr="" style="display:none;">
+							  </div>
+							  <div class='linemu6l5 mline' matchLinesAttr="" style="display:none;">
+							  </div>
+							</div>
+							
+							<div class="col-md-6">
+								<div class="match_lesson6">
+									<div class="match_numbe">
+										<span class="mamkg1unit3_circleRound match0 option" match-class="match0"></span>
+										<img src="data/assets/images/unit3/mamkg_unit3zero.png" alt="zero" class="mamkg1resize">
+									</div>
+									<div class="match_numbe">
+										<span class="mamkg1unit3_circleRound match4 option" match-class="match4"></span>
+										<img src="data/assets/images/unit3/mamkg_unit3four.png" alt="four" class="mamkg1resize">
+									</div>
+									<div class="match_numbe">
+										<span class="mamkg1unit3_circleRound match5 option" match-class="match5"></span>
+										<img src="data/assets/images/unit3/mamkg_unit3five.png" alt="five" class="mamkg1resize">
+									</div>
+									<div class="match_numbe">
+										<span class="mamkg1unit3_circleRound match3 option" match-class="match3"></span>
+										<img src="data/assets/images/unit3/mamkg_unit3three.png" alt="three" class="mamkg1resize">
+									</div>
+									<div class="match_numbe">
+										<span class="mamkg1unit3_circleRound match1 option" match-class="match1"></span>
+										<img src="data/assets/images/unit3/mamkg_unit3one.png" alt="one" class="mamkg1resize">
+									</div>
+									<div class="match_numbe">
+										<span class="mamkg1unit3_circleRound match2 option" match-class="match2"></span>
+										<img src="data/assets/images/unit3/mamkg_unit3two.png" alt="two" class="mamkg1resize">
+									</div>
+									
+								</div>
+							</div>
+							
+							
+						</div>
+					</div>
+					
+					<div class="anserSubmit" id="dragMU3L6">
+					<img src="data/assets/images/ansbtn.png" alt="" class="submitAnswerMU3L6">
+					<img src="data/assets/images/reload.png" alt="" class="resetAnswerMU3L6">
+				</div>
+				<div class="rightAnswerTryAgain rightAnswerTryAgainMU3L6" style="display:none;">
+					<div class="answerWrapper">
+						<div class="answerImages" id="popupMU3L6">
+							<img src="data/assets/images/tryagain.jpg" alt="" class="tryAgainAt">
+							<img src="data/assets/images/goodjob.jpg" alt="" class="goodjobAt">
+						</div>
+						<img src="data/assets/images/wrong.png" alt="" class="closeAnswer closeAnswerMU3L6">
+					</div>
+				</div>
+					
+				</div> <!-- bgimgwrapper end -->
+			</div> <!-- exercise end -->
+			<!-- "Read" exercise end -->
+			
+			<!-- "Tick" exercise start -->
+			<!-- exercise end -->
+			<!-- "Tick" exercise end -->
+			
+		</div>
                <!-- exercise end -->
                 <!-- "Read" exercise end -->
 
@@ -14,4 +125,153 @@
 
             <div id="footerwithlesson"></div>
         </div> <!-- dynamicpagediv end -->
-        
+        <script type="text/javascript">
+    
+    function lineDistance(x, y, x0, y0){
+    return Math.sqrt((x -= x0) * x + (y -= y0) * y);
+		};
+
+		function drawLine(a, b, line) {
+		  var pointA = $(a).offset();
+		  var pointB = $(b).offset();
+		  var pointAcenterX = $(a).width() / 2;
+		  var pointAcenterY = $(a).height() / 2;
+		  var pointBcenterX = $(b).width() / 2;
+		  var pointBcenterY = $(b).height() / 2;
+		  
+		  var angle = Math.atan2(pointB.top - pointA.top, pointB.left - pointA.left) * 180 / Math.PI;
+		  var distance = lineDistance(pointA.left, pointA.top, pointB.left, pointB.top);
+
+		  // Set Angle
+		  $(line).css('transform', 'rotate(' + angle + 'deg)');
+
+		  // Set Width
+		  $(line).css('width', distance + 'px');
+						  
+		  // Set Position
+		  $(line).css('position', 'absolute');
+		 if(pointB.left < pointA.left) {
+			$(line).offset({left: pointA.left + pointBcenterX});
+		  } else {
+			$(line).offset({left: pointA.left + pointAcenterX});
+		  }
+		  if(pointB.top < pointA.top) {
+			$(line).offset({top: pointB.top + pointAcenterY});
+		  } else {
+			$(line).offset({top: pointA.top + pointBcenterY});
+		  }
+		}
+$(document).ready(function(){
+		//drawLine('.a', '.b', '.line');
+		
+	$(document).on("click", "[data-match]", function() {
+        $("[data-match]").not(this).removeClass("active"), $(this).addClass("active");
+    });
+	
+	$(document).on("click", ".mamkg1unit3_circleRound.option", function() {
+	    var activeMatchData = $(".left_star.active").attr("data-match");
+	    $(".linemu6l"+activeMatchData).show();
+		if($(".matchq.active").hasClass("point"+activeMatchData) && $(this).hasClass("match"+activeMatchData)) {
+		 $(".linemu6l"+activeMatchData).addClass("correct");
+		 //$(this).addClass("correctAnswer");
+		} else {
+		  $(".linemu6l"+activeMatchData).removeClass("correct");
+		 //$(this).removeClass("correctAnswer");
+		}
+        var currentMatch = $(this);
+	    drawLine('.point'+activeMatchData, currentMatch, '.linemu6l'+activeMatchData);
+		$('.linemu6l'+activeMatchData).attr("matchLinesAttr", 'point'+activeMatchData + "_" + $(this).attr("match-class")+ "_" + "linemu6l"+activeMatchData);
+		
+    });
+
+
+	$(document).on("click", ".submitAnswerMU3L6", function() {
+       var e = $(".linemu6l1").is(":visible"), //correctAnswer p1
+            t = $(".linemu6l2").is(":visible"), //correctAnswer p1
+            r = $(".linemu6l3").is(":visible"),
+            o = $(".linemu6l4").is(":visible"),
+			p = $(".linemu6l5").is(":visible");
+			q = $(".linemu6l0").is(":visible");
+            //s = $(".wrapperLeftRight").hasClass("crossIsRight"),
+            //a = $(".wrapperLeftRight").hasClass("straightIsRight");
+			var error = 0;
+			if(e && $(".linemu6l1").hasClass("correct")){
+			  $(".match1.option").addClass("correctAnswer active");
+			} else {
+			  $(".match1.option").removeClass("correctAnswer active");
+			  error = 1;
+			}
+			if(t && $(".linemu6l2").hasClass("correct")){
+			  $(".match2.option").addClass("correctAnswer active");
+			} else {
+			  $(".match2.option").removeClass("correctAnswer active");
+			  error = 1;
+			}
+			if(r && $(".linemu6l3").hasClass("correct")){
+			  $(".match3.option").addClass("correctAnswer active");
+			} else {
+			  $(".match3.option").removeClass("correctAnswer active");
+			  error = 1;
+			}
+			if(o && $(".linemu6l4").hasClass("correct")){
+			  $(".match4.option").addClass("correctAnswer active");
+			} else {
+			  $(".match4.option").removeClass("correctAnswer active");
+			  error = 1;
+			}
+			if(p && $(".linemu6l5").hasClass("correct")){
+			  $(".match5.option").addClass("correctAnswer active");
+			} else {
+			  $(".match5.option").removeClass("correctAnswer active");
+			  error = 1;
+			}
+			if(p && $(".linemu6l0").hasClass("correct")){
+			  $(".match0.option").addClass("correctAnswer active");
+			} else {
+			  $(".match0.option").removeClass("correctAnswer active");
+			  error = 1;
+			}
+			
+			$(".interactive").addClass("active");
+			if(error == 1) {
+			  $(".rightAnswerTryAgainMU3L6").css("display", "flex");
+		      $("#popupMU3L6").addClass("tryAgain"),
+			  $("#popupMU3L6 .tryAgainAt").css("display", "block"),
+			  $(".interactive").addClass("tryMore"),
+			  $(".interactive").removeClass("rightlyDone"),
+			  play("data/assets/audio/oops-try-again.mp3")
+			}
+			else {
+			  $(".rightAnswerTryAgainMU3L6").css("display", "flex");
+		      $("#popupMU3L6").addClass("goodJob"),
+			  $("#popupMU3L6 .goodjobAt").css("display", "block"),
+			  $(".interactive").addClass("rightlyDone"),
+			  $(".interactive").removeClass("tryMore"),
+			  play("data/assets/audio/good-job.mp3")
+			}
+     });
+
+	$(window).on("resize", function() {
+	    $(".mline").each(function(){
+		  var matchLinesAttr = $(this).attr("matchLinesAttr");
+		  var res = matchLinesAttr.split("_");
+		  drawLine('.'+res[0], '.'+res[1], '.'+res[2]);
+		});
+    });
+	
+	$(".resetAnswerMU3L6").click(function(){
+		$(".interactive > div > div").removeClass("active"),
+		$(".interactive").removeClass("active"),
+		$(".interactive").removeClass("rightlyDone tryMore active"),
+		$(".mline").hide();
+		$(".left_star").removeClass("active");
+			
+	});
+	$(document).on("click", ".closeAnswerMU3L6", function() {
+			//$(".submitAnswerL6").hide(), 
+			$("#popupMU3L6").removeClass("goodJob, tryAgain"),
+			$(".rightAnswerTryAgainMU3L6").hide(), $(".answerImages img").hide(), $(".interactive").hasClass("rightlyDone")
+	});
+		
+		}); 
+    </script>

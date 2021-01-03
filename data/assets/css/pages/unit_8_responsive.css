@@ -4,9 +4,11 @@
 }*/
 @media (max-width: 480px){
 /********************** unit_8 Start ********************/
-/* .unit_8_lesson_2 .exercise2 .fullBox .leftBox{width: 100%;}
+.unit_8_lesson_2 .exercise2 .fullBox .leftBox{width: 100%;}
 .unit_8_lesson_2 .exercise2 .fullBox .rightBox{ width: 100%;}
-.unit_8_lesson_5 .exercise1 .fullBox .flexBox{width: 100%;} */
+/* .unit_8_lesson_5 .exercise1 .fullBox .flexBox{width: 100%;} */
+.unit_8_lesson_6 .exercise1 .fullBox .leftBox{ width: 100%; height: auto;}
+.unit_8_lesson_6 .exercise1 .fullBox .rightBox{width: 100%;}
 /********************** unit_8 end ********************/
 }
 

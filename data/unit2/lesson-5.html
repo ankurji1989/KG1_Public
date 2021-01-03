@@ -1,12 +1,114 @@
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <link rel="stylesheet" href="data/assets/css/new-style.css">
+   
         <div class="dynamicpagediv insideframepadding">
             <div id="header"></div>
             
-            <div class="lesson">
+            <div class="lesson unit2L5">
                 <!-- "Read" exercise start -->
+                <div class="exercise ">
+				<div class="bgimgwrapper dynamicpagediv">
+                    <div class="topleftlogo clearfix mamkg1" id="topleftlogo" onclick="play('data/assets/audio/color.mp3')">
+                            <div class="pointer inline">
+                                <img src="data/assets/images/new-images/color.png" alt="Book" class="logoinside">
+                            </div>
+                            <div class="unittextstyle activity-text transition">
+                                <span>C</span><span>o</span><span>l</span><span>o</span><span>r</span>
+                            </div>
+                        </div>
+                        <div class="transparentbg">
+                            <div class="result">
+                                <div class="goodjob" style="display: none;">
+                                    <a href="javascript:void(0);" class="popupclose disablehreflink" onclick="Close()"><img src="data/assets/images/wrong.png" alt="Close"></a>
+                                        <img src="data/assets/images/goodjob.jpg" class="img100">
+                                </div>
+                                <div class="tryagain" style="display: none;">
+                                    <a href="javascript:void(0);" class="popupclose disablehreflink" onclick="Close()"><img src="data/assets/images/wrong.png" alt="Close"></a>
+                                        <img src="data/assets/images/tryagain.jpg" class="img100">
+                                </div>
+                            </div>
+                        </div>
+						<div class="u2L5 shape-ac">
+							<div class="col-sm-12">
+								<div class="squarebx"> 	
+									<li class="clr-circle"></li>
+									<li class="clr-circle red"></li>
+									<li class="clr-circle"></li>
+									<li class="clr-circle red"></li>
+								</div>
+							</div>
+						</div>
+                    <img class="circle plain position-absolute" src="data/assets/images/new-images/unit2l5-circlePlain.png" onclick="showred()">
+                    <img class="circle yellow position-absolute none" src="data/assets/images/new-images/unit2l5-circleYellow.jpg" onclick="showplain()">
+                    <img class="circle red position-absolute none" src="data/assets/images/new-images/unit2l5-circleRed.png" onclick="showyellow()">
+                    <img class="tri plain position-absolute" src="data/assets/images/new-images/triPlain.png" onclick="showTrigreen()">
+                    <img class="tri green position-absolute none" src="data/assets/images/new-images/triGreen.png" onclick="showTriblue()">
+                    <img class="tri blue position-absolute none" src="data/assets/images/new-images/triBlue.png" onclick="showTriplain()">
+                    <img class="rect plain position-absolute" src="data/assets/images/new-images/rectPlain.png" onclick="showRectblue()">
+                    <img class="rect blue position-absolute none" src="data/assets/images/new-images/rectBlue.png" onclick="showRectyellow()">
+                    <img class="rect yellow position-absolute none" src="data/assets/images/new-images/rectYellow.png" onclick="showRectplain()">
+                    <div class="actionbtn reloadbtn">
+                        <a href="#" onclick="checkunit2L5()" style="display: inline-block;">
+                            <img src="data/assets/images/ansbtn.png" alt="Answer" style="opacity: 1; transform: scale(1);">
+                        </a>
+                        <button type="reset" class="resetRadioInput" onclick="reloadPageUnit2L5()">
+                            <img src="data/assets/images/reload.png" alt="Reload">
+                        </button>
+                    </div>
+                </div>
+                </div>
                <!-- exercise end -->
                 <!-- "Read" exercise end -->
 
                 <!-- "Tick" exercise start -->
+                <div class="exercise unit2L5-2 position-relative">
+				<div class="bgimgwrapper dynamicpagediv">
+                    <div class="transparentbg">
+                                <div class="result">
+                                    <div class="goodjob" style="display: none;">
+                                        <a href="javascript:void(0);" class="popupclose disablehreflink" onclick="Close()"><img src="data/assets/images/wrong.png" alt="Close"></a>
+                                            <img src="data/assets/images/goodjob.jpg" class="img100">
+                                    </div>
+                                    <div class="tryagain" style="display: none;">
+                                        <a href="javascript:void(0);" class="popupclose disablehreflink" onclick="Close()"><img src="data/assets/images/wrong.png" alt="Close"></a>
+                                            <img src="data/assets/images/tryagain.jpg" class="img100">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="topleftlogo mamkg1" id="topleftlogo" onclick="play('data/assets/audio/dead.mp3')">
+                                <div class="pointer inline">
+                                    <img src="data/assets/images/new-images/trace.png" alt="Book" class="logoinside">
+                                </div>
+                                <div class="unittextstyle activity-text transition">
+                                    <span>D</span><span>r</span><span>a</span><span>g</span>
+                                </div>
+                            </div>
+                    <img class="imgBox" src="data/assets/images/new-images/unit2L5-box.png">
+                        <div id="div1" class="dragpoint position-absolute" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div id="div2" class="dragpoint position-absolute" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div id="div3" class="dragpoint position-absolute" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div id="div4" class="dragpoint position-absolute" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="color-picker" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <img id="drag1" src="data/assets/images/new-images/triGreen.png" draggable="true" ondragstart="drag(event)">
+                        <img id="drag2" src="data/assets/images/new-images/greenrect.jpg" draggable="true" ondragstart="drag(event)">
+                        <img id="drag3" src="data/assets/images/new-images/color-picker-blue.png" draggable="true" ondragstart="drag(event)">
+                        <img id="drag4" src="data/assets/images/new-images/bluebox.jpg" draggable="true" ondragstart="drag(event)">
+                    </div>
+                    <div class="homework">
+                            <p class="homeworkimg" onclick="homeworkdetail();"><img title="Homework" src="data/assets/images/homework.png" alt="Homework"></p>
+                                <div class="homeworktext mamkg1-pencil" style="display: none;">
+                                    <span>✖</span>
+                                    Ask your child to make a pattern using building blocks of two different shapes.
+
+                                </div>
+                            </div>
+                    <div class="actionbtn reloadbtn">
+                        <a href="#" onclick="checkunit2L5p2()" style="display: inline-block;">
+                            <img src="data/assets/images/ansbtn.png" alt="Answer" style="opacity: 1; transform: scale(1);">
+                        </a>
+                    </div>
+                </div>
+                </div>
                <!-- exercise end -->
                 <!-- "Tick" exercise end -->
 

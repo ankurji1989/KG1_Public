@@ -4,7 +4,7 @@
 }
 @media (max-width: 480px){
 /********************** unit_7 Start ********************/
-.unit_7_lesson_2 .exercise2 .bottomArea .header_part .left_pointer_img{top: 10px;}
+.unit_7_lesson_2 .exercise2 .bottomArea .header_part .left_pointer_img{top: -28px;}
 .unit_7_lesson_3 .exercise2 .topBox > div{ width: 100%;}
 .unit_7_lesson_3 .exercise2 .topBox > div.leftBox{border: none;}
 .unit_7_lesson_4 .exercise1 .bottomBox .leftBox{ width: 100%; border: none ;}
@@ -13,7 +13,15 @@
 .unit_7_lesson_6 .exercise1 .fullBox{width: 87%;height: auto;}
 .unit_7_lesson_6 .exercise1 .fullBox .imageBox input{font-size: 52px;}
 .unit_7_lesson_6 .exercise1{ height: 100%;}
-
+.unit_7_lesson_5 .exercise1 .flexRow{flex-direction: column;}
+.unit_7_lesson_5 .exercise1 .flexRow > div{width: 100%;margin-bottom: 20px;}
+.unit_7_lesson_5 .exercise1 .flexRow:last-child{flex-direction: column;}
+.unit_7_lesson_5 .exercise2 .flexRow{flex-direction: column;}
+.unit_7_lesson_5 .exercise2 .flexRow > div{ width: 100%;}
+.unit_7_lesson_5 .exercise2 .flexRow:last-child{flex-direction: column;}
+.unit_7_lesson_6 .exercise2 .flexrow{flex-direction: column;}
+.unit_7_lesson_6 .exercise2 .flexrow > div{width: 100%;padding-bottom: 10px;}
+.unit_7_lesson_6 .exercise2 .row2{flex-direction: column;}
 /********************** unit_7 end ********************/
 }
 

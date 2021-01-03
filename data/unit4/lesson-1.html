@@ -1,17 +1,80 @@
-        <div class="dynamicpagediv insideframepadding">
-            <div id="header"></div>
-            
-            <div class="lesson">
-                <!-- "Read" exercise start -->
-               <!-- exercise end -->
-                <!-- "Read" exercise end -->
-
-                <!-- "Tick" exercise start -->
-               <!-- exercise end -->
-                <!-- "Tick" exercise end -->
-
-            </div> <!-- lesson end -->
-
-            <div id="footerwithlesson"></div>
-        </div> <!-- dynamicpagediv end -->
-        
+<div class="dynamicpagediv insideframepadding">
+    <div id="header"></div>
+    <div class="lesson bg-white u4Lesson1">
+        <div class="exercise" style="display: block;">
+            <div class="bgimgwrapper dynamicpagediv u41bg" style="position:relative;">
+                <div class="exerciseLogo" onclick="play('data/assets/audio/count.mp3')">
+                    <img src="data/assets/images/unit4/countLogo.png" alt="">
+                </div>
+                <div class="pointer inline" style="float: right;">
+                    <img src="data/assets/images/unit4/lesson1/1.png" alt="Book" class="logoinside">
+                </div>
+                <div style="position:absolute;
+                top:10;
+                left:0; margin-left: 5%;">
+                    <div>
+                        <img src="data/assets/images/unit4/ss2.png" class="img img-responsive">
+                        <img src="data/assets/images/unit4/ss1.png" class="img img-responsive">
+                        <button class="playbtn mamkg1" onclick="play('data/assets/audio/unit4/lesson1/1.mp3')">
+                            <img src="data/assets/images/volumn.png" alt="Play">
+                        </button>
+                    </div>
+                </div>
+                <div style="position:absolute;
+                bottom:0;
+                right:0; margin-right: 5%;">
+                    <div>
+                        <img src="data/assets/images/unit4/ss2.png" class="img img-responsive">
+                        <img src="data/assets/images/unit4/ss3.png" class="img img-responsive">
+                        <button class="playbtn mamkg1" onclick="play('data/assets/audio/unit4/lesson1/2.mp3')">
+                            <img src="data/assets/images/volumn.png" alt="Play">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="exercise interactive">
+            <div class="exerciseLogo" onclick="play('data/assets/audio/drag.mp3')">
+                <img src="data/assets/images/unit4/dragLogo.png" alt="">
+            </div>
+            <div class="exeWrap">
+            <div class="upper">
+                <div class="flowerDrop">
+                    <div class="flowerHolder">
+                        <img src="data/assets/images/unit4/glassFlower1.png" alt="">
+                        <div class="dropArea option">
+                            <img src="data/assets/images/unit4/dragFlower.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lower">
+                <div class="sixholder">
+                    <h4>type</h4>
+                    <div class="six option">
+                        <input autocomplete="off" id="six" type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" placeholder="6" />
+                        <!-- <img src="data/assets/images/unit4/sixPlaceHolder.png" alt=""> -->
+                    </div>
+                </div>
+                <div class="hands">
+                    <img src="data/assets/images/unit4/hands.png" alt="" class="hands">
+                </div>
+            </div>
+            </div>
+            <div class="anserSubmit" id="u4L1">
+                <img src="data/assets/images/ansbtn.png" alt="" class="submitAnswer">
+                <img src="data/assets/images/reload.png" alt="" class="resetAnswer">
+            </div>
+            <div class="rightAnswerTryAgain">
+                <div class="answerWrapper">
+                    <div class="answerImages">
+                        <img src="data/assets/images/tryagain.jpg" alt="" class="tryAgainAt">
+                        <img src="data/assets/images/goodjob.jpg" alt="" class="goodjobAt">
+                    </div>
+                    <img src="data/assets/images/wrong.png" alt="" class="closeAnswer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footerwithlesson"></div>
+</div> <!-- dynamicpagediv end -->

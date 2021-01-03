@@ -1,13 +1,140 @@
+ <link rel="stylesheet" href="data/assets/css/new-style.css">
+   
         <div class="dynamicpagediv insideframepadding">
             <div id="header"></div>
             
             <div class="lesson">
                 <!-- "Read" exercise start -->
-               <!-- exercise end -->
+                <div class="exercise">
+				<div class="bgimgwrapper dynamicpagediv unit1bg">
+                    <div class="topleftlogo clearfix mamkg1 transition" id="topleftlogo" onclick="play('data/assets/audio/point.mp3')">
+                        <div class="pointer inline">
+                            <img src="data/assets/images/new-images/point.png" alt="Book" class="logoinside">
+                        </div>
+                        <div class="unittextstyle activity-text">
+                            <span>P</span><span>o</span><span>i</span><span>n</span><span>t</span>
+                        </div>
+                    </div>
+                    <div class="unit1-content">
+                        <div class="first-container">
+                            
+                            <div class="same transition">same</div>
+                            <button class="playbtn mamkg1" onclick="play('data/assets/audio/same.mp3')">
+                                    <img src="data/assets/images/volumn.png" alt="Play">
+                            </button>
+                            <div class="same-container">
+                                <img class="cat transition" src="data/assets/images/cat.png">
+                                <img class="cat transition" src="data/assets/images/cat.png">
+                            </div>
+                        </div>
+                        <img class="divider" src="data/assets/images/new-images/divider.png">
+                        <div class="second-container">  
+                            <div class="diff-container">
+                                <img class="cat&mouse transition" src="data/assets/images/cat&mouse.png">
+                            </div>
+                            <div class="diff transition">different</div>
+                            <button class="playbtn mamkg1" onclick="play('data/assets/audio/different.mp3')">
+                                    <img src="data/assets/images/volumn.png" alt="Play">
+                            </button>
+                        </div>
+                    </div>
+                    </div>
+                </div> <!-- exercise end -->
                 <!-- "Read" exercise end -->
 
                 <!-- "Tick" exercise start -->
-               <!-- exercise end -->
+                <div class="exercise position-relative">
+				<div class="bgimgwrapper dynamicpagediv">
+                    <div class="topleftlogo clearfix mamkg1 unit1L1 top transition" id="topleftlogo" onclick="play('data/assets/audio/color.mp3')">
+                        <div class="pointer inline">
+                            <img src="data/assets/images/new-images/color.png" alt="Book" class="logoinside">
+                        </div>
+                        <div class="unittextstyle activity-text">
+                            <span>C</span><span>o</span><span>l</span><span>o</span><span>r</span>
+                        </div>
+                    </div>
+                    <div class="transparentbg">
+                            <div class="result">
+                                <div class="goodjob" style="display: none;">
+                                    <a href="javascript:void(0);" class="popupclose disablehreflink" onclick="Close()"><img src="data/assets/images/wrong.png" alt="Close"></a>
+                                    <img src="data/assets/images/goodjob.jpg" class="img100">
+                                </div>
+                                <div class="tryagain" style="display: none;">
+                                    <a href="javascript:void(0);" class="popupclose disablehreflink" onclick="Close()"><img src="data/assets/images/wrong.png" alt="Close"></a>
+                                    <img src="data/assets/images/tryagain.jpg" class="img100">
+                                </div>
+                            </div>
+                    </div>
+                     <div class="wrapper1">
+                        <div class="color-wrapper">
+                            <div class="container">
+                                <a class="shape star" onclick="fill(0)"><img id="star" src="data/assets/images/new-images/star.jpg"><img id="yellow" class="incorrect" src="data/assets/images/new-images/star-yellow.jpg"><img class="wrong-mark" src="data/assets/images/wrong.png" alt="wrong"></a>
+                                <a class="shape heart" onclick="fill(1)"><img id="heart" src="data/assets/images/new-images/heart-shape.jpg"><img class="correct yellow" src="data/assets/images/new-images/heart-yellow.jpg"><img class="right-mark" src="data/assets/images/right.png" alt="right"></a>
+                                <a class="shape heart" onclick="fill(2)"><img id="heart" src="data/assets/images/new-images/heart-shape.jpg"><img class="correct yellow" src="data/assets/images/new-images/heart-yellow.jpg"><img class="right-mark" src="data/assets/images/right.png" alt="right"></a> 
+                            </div>
+                            <div class="container">
+                                <a class="shape cloud" onclick="fill(3)"><img id="cloud" src="data/assets/images/new-images/cloud.jpg"><img class="correct yellow" src="data/assets/images/new-images/cloud-yellow.jpg"><img class="right-mark" src="data/assets/images/right.png" alt="right"></a>
+                                <a class="shape cloud" onclick="fill(4)"><img id="cloud" src="data/assets/images/new-images/cloud.jpg"><img class="correct yellow" src="data/assets/images/new-images/cloud-yellow.jpg"><img class="right-mark" src="data/assets/images/right.png" alt="right"></a>
+                                <a class="shape sun" onclick="fill(5)"><img id="sun" src="data/assets/images/new-images/sun.jpg"><img id="yellow" class="incorrect" src="data/assets/images/new-images/sun-yellow.jpg"><img class="wrong-mark" src="data/assets/images/wrong.png" alt="wrong"></a>
+                            </div>
+                        </div>
+                        <div class="text-wrapper">
+                            <span class="same transition">same</span>
+                            <button class="playbtn mamkg1" onclick="play('data/assets/audio/same.mp3')">
+                                <img src="data/assets/images/volumn.png" alt="Play">
+                            </button>
+                        </div>
+                        
+                    </div>
+                    <img class="divider" style="margin-top: -2px;" src="data/assets/images/new-images/divider-unit1-L2.jpg">
+                    <div class="mamkg1 unit1L1 center transition" id="topleftlogo" onclick="play('data/assets/audio/cross-out.mp3')">
+                        <div class="pointer inline">
+                            <img src="data/assets/images/new-images/cross-out.png" alt="Book" class="logoinside">
+                        </div>
+                        <div class="unittextstyle activity-text">
+                            <span>C</span><span>r</span><span>o</span><span>s</span><span>s</span> <span>o</span><span>u</span><span>t</span>
+                        </div>
+                    </div>
+                    <div class="wrapper2">
+                        <div class="text-wrapper">
+                            <span class="diff transition">different</span>
+                            <button class="playbtn mamkg1" onclick="play('data/assets/audio/different.mp3')">
+                                <img src="data/assets/images/volumn.png" alt="Play">
+                            </button>
+                        </div>
+                        <div class="cross-wrapper">
+                            <div class="container">
+                                <div class="box" onclick="cross(0)"><img id="ball" src="data/assets/images/new-images/ball.png"><img class="cross incorrect" src="data/assets/images/new-images/cross.png"><img class="wrong-mark" src="data/assets/images/wrong.png" alt="wrong"></div>
+                                <div class="box" onclick="cross(1)"><img id="ball" src="data/assets/images/new-images/ball.png"><img class="cross incorrect" src="data/assets/images/new-images/cross.png"><img class="wrong-mark" src="data/assets/images/wrong.png" alt="wrong"></div>
+                                <div class="box" onclick="cross(2)"><img id="football" src="data/assets/images/new-images/football.jpg"><img class="cross correct" src="data/assets/images/new-images/cross.png"><img class="right-mark" src="data/assets/images/right.png" alt="right"></div>
+                                <div class="box" onclick="cross(3)"><img id="ball" src="data/assets/images/new-images/ball.png"><img class="cross incorrect" src="data/assets/images/new-images/cross.png"><img class="wrong-mark" src="data/assets/images/wrong.png" alt="wrong"></div>
+                            </div>
+                            <div class="container">
+                                <div class="box"  onclick="cross(4)"><img id="cat" src="data/assets/images/new-images/cat1.png"><img class="cross correct" src="data/assets/images/new-images/cross.png"><img class="right-mark" src="data/assets/images/right.png" alt="right"></div>
+                                <div class="box"  onclick="cross(5)"><img id="ball" src="data/assets/images/new-images/cat2.png"><img class="cross incorrect" src="data/assets/images/new-images/cross.png"><img class="wrong-mark" src="data/assets/images/wrong.png" alt="wrong"></div>
+                                <div class="box"  onclick="cross(6)"><img id="ball" src="data/assets/images/new-images/cat2.png"><img class="cross incorrect" src="data/assets/images/new-images/cross.png"><img class="wrong-mark" src="data/assets/images/wrong.png" alt="wrong"></div>
+                                <div class="box"  onclick="cross(7)"><img id="ball" src="data/assets/images/new-images/cat2.png"><img class="cross incorrect" src="data/assets/images/new-images/cross.png"><img class="wrong-mark" src="data/assets/images/wrong.png" alt="wrong"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="actionbtn reloadbtn">
+                        <a href="#" onclick="check()" style="display: inline-block;">
+                            <img src="data/assets/images/ansbtn.png" alt="Answer" style="opacity: 1; transform: scale(1);">
+                        </a>
+                        <button type="reset" class="resetRadioInput" onclick="reloadPageUnit1L1()">
+                            <img src="data/assets/images/reload.png" alt="Reload">
+                        </button>
+                    </div>
+                    <div class="homework">
+                            <p class="homeworkimg" onclick="homeworkdetail();"><img title="Homework" src="data/assets/images/homework.png" alt="Homework"></p>
+                            <div class="homeworktext mamkg1-pencil" style="display: none;">
+                                <span>✖</span>
+                                Ask your child to show same and different objects in their toy box.
+                            </div>
+                        </div>
+                        </div>
+                </div> <!-- exercise end -->
                 <!-- "Tick" exercise end -->
 
             </div> <!-- lesson end -->

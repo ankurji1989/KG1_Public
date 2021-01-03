@@ -1,17 +1,328 @@
-        <div class="dynamicpagediv insideframepadding">
-            <div id="header"></div>
-            
-            <div class="lesson">
-                <!-- "Read" exercise start -->
-               <!-- exercise end -->
-                <!-- "Read" exercise end -->
+<link rel="stylesheet" href="data/assets/css/mamkg1_unit3.css">
 
-                <!-- "Tick" exercise start -->
-               <!-- exercise end -->
-                <!-- "Tick" exercise end -->
+<div class="dynamicpagediv insideframepadding">
+	<div id="header"></div>
+	
+	<div class="lesson mam-unit3lss2">
+		<!-- "Read" exercise start -->
+		<div class="exercise white">
+			<div class="bgimgwrapper dynamicpagediv white">
+				<div class="topleftlogo clearfix" id="topleftlogo" onclick="play('data/assets/audio/click.mp3')">
+					<div class="pointer inline">
+						<img src="data/assets/images/unit3/mamkggreen_click.png" alt="click" class="logoinside">
+					</div>
+					<img src="data/assets/images/unit3/mamkgclick_text.png" alt="click" class="textinside">
+				</div>
+				
+				
+				
+				<div class="manual3col_mamkg1 clearfix">
+					<div class="container mamwidth_100">
+						<div class="mamunit3-more">
+							<div class="row top-bar">
+							<div class="col-md-3">
+									<h6><button class="playbtn mamkg_playbtn" onclick="play('data/assets/audio/more.mp3')">
+										<img src="data/assets/images/volumn.png" alt="Play">
+									</button>more
+									<img src="data/assets/images/unit3/more_1.png" alt="" class="">
+									</h6>
+								</div>
+								<div class="col-md-4">
+									<img src="data/assets/images/unit3/more-book.png" alt="" class="">
+								</div>
+								<div class="col-md-5">
+									<img src="data/assets/images/unit3/more_balon.png" alt="" class="">
+								</div>
+							</div>
+							
+							<div class="row">
+								<div class="col-md-3">
+									<h6><button class="playbtn mamkg_playbtn" onclick="play('data/assets/audio/fewer.mp3')">
+										<img src="data/assets/images/volumn.png" alt="Play">
+									</button>fewer
+									<img src="data/assets/images/unit3/more_1.png" alt="" class="">
+									</h6>
+									
+								</div>
+								<div class="col-md-4">
+									<img src="data/assets/images/unit3/more-book.png" alt="" class="">
+								</div>
+								<div class="col-md-5">
+									<img src="data/assets/images/unit3/more_balon.png" alt="" class="">
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+					
+				</div> <!-- bgimgwrapper end -->
+			</div> <!-- exercise end -->
+			<!-- "Read" exercise end -->
+			
+			<!-- "Tick" exercise start -->
+			<!-- exercise end -->
+			<!-- "Tick" exercise end -->
+			
+		</div>
+		<!-- exercise end -->
+		
+		<div class="exercise interactive page-one white">
+			<div class="bgimgwrapper dynamicpagediv white">
+				<div class="topleftlogo clearfix" id="topleftlogo" onclick="play('data/assets/audio/click.mp3')">
+					<div class="pointer inline">
+						<img src="data/assets/images/unit3/mamkggreen_click.png" alt="click" class="logoinside">
+					</div>
+					<img src="data/assets/images/unit3/mamkgclick_text.png" alt="click" class="textinside">
+				</div>
+				
+				<div class="homework">
+					<p class="homeworkimg" onclick="homeworkdetail();">
+						<img title="Homework" src="data/assets/images/homework.png" alt="Homework">
+					</p>
+					
+					<div class="homeworktext" style="display: none;">
+						<span>x</span>
+						Play a game of more or fewer using coins, buttons, or colored pencils.
+					</div>
+				</div>
+				
+				<div class="manual3col_mamkg1 clearfix">
+					<div class="container mamwidth_100 mamkgmore_text">
+						<h5><button class="playbtn mamkg_playbtn" onclick="play('data/assets/audio/more.mp3')">
+										<img src="data/assets/images/volumn.png" alt="Play">
+									</button>more</h5>
+						<div class="row mam_mg-top_unit3">
+							<div class="col-md-6 mamunit_ls2">
+								<div class="col-md-6 flt-left mt-5">
+									<img src="data/assets/images/unit3/fruit_more.png" alt="" class="">	
+									<input id="more" type="radio" name="more" value="more" class="mam-unit3right">
+									<label for="more" class="option correctAnswer">&nbsp;</label>
+								</div>
+								<div class="col-md-6 flt-left mt-5">
+									<img src="data/assets/images/unit3/fewer_fruit.png" alt="" class="">
+									<input id="fewer" type="radio" name="more" value="fewer" class="mam-unit3right">
+									<label for="fewer" class="option">&nbsp;</label>
+								</div>
+							</div>
+							
+							<div class="col-md-6 mamunit_ls2">
+								<div class="col-md-6 flt-left">
+									<img src="data/assets/images/unit3/fewer_flower.png" alt="" class="">	
+									<input id="fewerflower" type="radio" name="flower" value="fewer" class="mam-unit3right">
+									<label for="fewerflower" class="option">&nbsp;</label>
+								</div>
+								<div class="col-md-6 flt-left">
+									<img src="data/assets/images/unit3/flower_more.png" alt="" class="">
+									<input id="flowermore" type="radio" name="flower" value="more" class="mam-unit3right">
+									<label for="flowermore" class="option correctAnswer">&nbsp;</label>
+								</div>
+							</div>
+							
+							
+							
+						</div>
+					</div>
+					
+					<div class="anserSubmit" id="dragMU3L211">
+							<img src="data/assets/images/ansbtn.png" alt="" class="submitAnswerMU3L211">
+							<img src="data/assets/images/reload.png" alt="" class="resetAnswerMU3L211">
+						</div>
+						<div class="rightAnswerTryAgain rightAnswerTryAgainMU3L211" style="display:none;">
+							<div class="answerWrapper">
+								<div class="answerImages" id="firstpopup">
+									<img src="data/assets/images/tryagain.jpg" alt="" class="tryAgainAt">
+									<img src="data/assets/images/goodjob.jpg" alt="" class="goodjobAt">
+								</div>
+								<img src="data/assets/images/wrong.png" alt="" class="closeAnswer closeAnswerMU3L211">
+							</div>
+						</div>
+					
+				</div> <!-- bgimgwrapper end -->
+			</div> <!-- exercise end -->
+			<!-- "Read" exercise end -->
+			
+			<!-- "Tick" exercise start -->
+			<!-- exercise end -->
+			<!-- "Tick" exercise end -->
+			
+		</div>
+		
+		<!-- "Read" exercise end -->
+		<div class="exercise interactive page-second">
+			<div class="bgimgwrapper dynamicpagediv white">
+				<div class="topleftlogo clearfix" id="topleftlogo" onclick="play('data/assets/audio/circle.mp3')">
+					<div class="pointer inline">
+						<img src="data/assets/images/unit3/mamkg_circle_logo.png" alt="circle" class="logoinside">
+					</div>
+					<img src="data/assets/images/unit3/unit3color-text.png" alt="circle" class="textinside">
+				</div>
+				<div class="homework">
+					<p class="homeworkimg" onclick="homeworkdetail();">
+						<img title="Homework" src="data/assets/images/homework.png" alt="Homework">
+					</p>
+					
+					<div class="homeworktext" style="display: none;">
+						<span>x</span>
+						Play a game of more or fewer using coins, buttons, or colored pencils.
+					</div>
+				</div>
+				
+				
+				<div class="manual3col_mamkg1 clearfix">
+					<div class="container mamwidth_100 mamkgmore_text">
+						<h5><button class="playbtn mamkg_playbtn" onclick="play('data/assets/audio/fewer.mp3')">
+										<img src="data/assets/images/volumn.png" alt="Play">
+									</button>fewer</h5>
+						<div class="row mam_mg-top_unit3 circlemam_kg3">
+						
+						<div class="col-md-6 mamunit_ls2">
+						<div class="col-md-6 flt-left mam_kg_circlelss23 fish-bowl correctAnswer option">
+						<img src="data/assets/images/unit3/fish_fewer.png" alt="" class="">	
+						
+						</div>
+						<div class="col-md-6 flt-left mam_kg_circlelss23 fish-bowl option">
+						<img src="data/assets/images/unit3/fish_more.png" alt="" class="">
+						
+						</div>
+						</div> 
+						
+						<div class="col-md-6 mamunit_ls2">
+						<div class="col-md-6 flt-left mam_kg_circlelss23 balonbunch correctAnswer option">
+						<img src="data/assets/images/unit3/balon-fewer.png" alt="" class="">	
+						
+						</div>
+						<div class="col-md-6 flt-left mam_kg_circlelss23 balonbunch option">
+						<img src="data/assets/images/unit3/balon-more.png" alt="" class="">
+						
+						</div>
+						</div>
+						
+						
+						
+						</div>
+					</div>
+					
+					
+					<div class="anserSubmit" id="dragMU3L212">
+							<img src="data/assets/images/ansbtn.png" alt="" class="submitAnswerMU3L212">
+							<img src="data/assets/images/reload.png" alt="" class="resetAnswerMU3L212">
+						</div>
+						<div class="rightAnswerTryAgain rightAnswerTryAgainMU3L212" style="display:none;">
+							<div class="answerWrapper">
+								<div class="answerImages" id="secondpopup">
+									<img src="data/assets/images/tryagain.jpg" alt="" class="tryAgainAt">
+									<img src="data/assets/images/goodjob.jpg" alt="" class="goodjobAt">
+								</div>
+								<img src="data/assets/images/wrong.png" alt="" class="closeAnswer closeAnswerMU3L212">
+							</div>
+						</div>
+						
+				</div> <!-- bgimgwrapper end -->
+			</div> <!-- exercise end -->
+			<!-- "Read" exercise end -->
+			
+			<!-- "Tick" exercise start -->
+			<!-- exercise end -->
+			<!-- "Tick" exercise end -->
+			
+		</div>
+		
+		<!-- "Tick" exercise start -->
+		<!-- exercise end -->
+		<!-- "Tick" exercise end -->
+	
+	</div> <!-- lesson end -->
+	
+	<div id="footerwithlesson"></div>
+</div> <!-- dynamicpagediv end -->
 
-            </div> <!-- lesson end -->
+					<script>
+					$(document).ready(function(){
 
-            <div id="footerwithlesson"></div>
-        </div> <!-- dynamicpagediv end -->
-        
+                      $(document).on("click", ".submitAnswerMU3L211", function(){
+						$(".rightAnswerTryAgainMU3L211").css("display", "flex")
+						$(".page-one").addClass("active");
+						var checkVal = 0;
+						if($("input[name=flower]:checked").val() == 'more') { checkVal++; }
+						if($("input[name=more]:checked").val() == 'more') { checkVal++;}
+						checkVal == 2 ? onSubmitGoodJobMU3L211() : onSubmitTryMoreMU3L211()
+					  });
+					  
+					    function onSubmitGoodJobMU3L211() {
+							$("#firstpopup").addClass("goodJob");
+							$("#firstpopup .goodjobAt").css("display", "block");
+							$(".page-one").addClass("rightlyDone");
+							$(".page-one").removeClass("tryMore");
+							play("data/assets/audio/good-job.mp3")
+						}
+						
+						function onSubmitTryMoreMU3L211() {
+							$("#firstpopup").addClass("tryAgain");
+							$("#firstpopup .tryAgainAt").css("display", "block");
+							$(".page-one").addClass("tryMore");
+							$(".page-one").removeClass("rightlyDone");
+							play("data/assets/audio/oops-try-again.mp3")
+						}
+						$(document).on("click", ".closeAnswerMU3L211", function() {
+							$("#firstpopup").removeClass("goodJob, tryAgain"), $(".rightAnswerTryAgainMU3L211").hide(), $("#firstpopup img").hide(), $(".page-one").hasClass("rightlyDone")
+						});
+						
+						$(".resetAnswerMU3L211").click(function() {
+							$(".page-one > div > div").removeClass("active"),
+							$(".page-one").removeClass("active tryMore"),
+							//$(".page-one label").removeClass("correctAnswer");
+							$("input[name=flower], input[name=more]").prop('checked', false);
+
+							
+						});
+						
+						
+						//page 3
+						//fish-bowl  balonbunch
+						$(document).on("click", ".fish-bowl", function(){
+						//alert("jkk");
+						  if($(this).hasClass("active")){$(this).removeClass("active") } else {$(".fish-bowl").removeClass("active"), $(this).addClass("active")}
+						});
+						$(document).on("click", ".balonbunch", function(){
+						  if($(this).hasClass("active")) {  $(this).removeClass("active") } else { $(".balonbunch").removeClass("active"), $(this).addClass("active")}
+						});
+						
+						$(document).on("click", ".submitAnswerMU3L212", function(){
+						$(".rightAnswerTryAgainMU3L212").css("display", "flex")
+						$(".page-second").addClass("active");
+						var checkVal = 0;
+						if($(".fish-bowl").is(".correctAnswer.active")) { checkVal++; }
+						if($(".balonbunch").is(".correctAnswer.active")) { checkVal++;}
+						checkVal == 2 ? onSubmitGoodJobMU3L212() : onSubmitTryMoreMU3L212()
+					  });
+					  
+					    function onSubmitGoodJobMU3L212() {
+							$("#secondpopup").addClass("goodJob");
+							$("#secondpopup .goodjobAt").css("display", "block");
+							$(".page-second").addClass("rightlyDone");
+							$(".page-second").removeClass("tryMore");
+							play("data/assets/audio/good-job.mp3")
+						}
+						
+						function onSubmitTryMoreMU3L212() {
+							$("#secondpopup").addClass("tryAgain");
+							$("#secondpopup .tryAgainAt").css("display", "block");
+							$(".page-second").addClass("tryMore");
+							$(".page-second").removeClass("rightlyDone");
+							play("data/assets/audio/oops-try-again.mp3")
+						}
+						$(document).on("click", ".closeAnswerMU3L212", function() {
+							$("#secondpopup").removeClass("goodJob, tryAgain"), $(".rightAnswerTryAgainMU3L212").hide(), $("#secondpopup img").hide(), $(".page-second").hasClass("rightlyDone")
+						});
+						
+						$(".resetAnswerMU3L212").click(function() {
+							$(".page-second > div > div").removeClass("active"),
+							$(".page-second").removeClass("active tryMore"),
+							$(".page-second .option").removeClass("active");
+
+							
+						});
+						
+					});
+					</script>

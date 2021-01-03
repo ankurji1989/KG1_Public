@@ -1,12 +1,172 @@
+ <link rel="stylesheet" href="data/assets/css/new-style.css">
+   
         <div class="dynamicpagediv insideframepadding">
             <div id="header"></div>
             
             <div class="lesson">
                 <!-- "Read" exercise start -->
+                <div class="exercise  position-relative">
+				<div class="bgimgwrapper dynamicpagediv unit1L6">
+                    <div class="topleftlogo clearfix mamkg1 transition" id="topleftlogo" onclick="play('data/assets/audio/match.mp3')">
+                        <div class="pointer inline">
+                            <img src="data/assets/images/new-images/trace.png" alt="Book" class="logoinside">
+                        </div>
+                        <div class="unittextstyle activity-text">
+                            <span>M</span><span>a</span><span>t</span><span>c</span><span>h</span>
+                        </div>
+                    </div>
+                    <div class="transparentbg">
+                        <div class="result">
+                            <div class="goodjob" style="display: none;">
+                                <a href="javascript:void(0);" class="popupclose disablehreflink" onclick="Close()"><img src="data/assets/images/wrong.png" alt="Close"></a>
+                                    <img src="data/assets/images/goodjob.jpg" class="img100">
+                            </div>
+                            <div class="tryagain" style="display: none;">
+                                <a href="javascript:void(0);" class="popupclose disablehreflink" onclick="Close()"><img src="data/assets/images/wrong.png" alt="Close"></a>
+                                    <img src="data/assets/images/tryagain.jpg" class="img100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="unit1L6-wrapper position-relative">
+                        <img class="small-bees place-bee-1 position-absolute" src="data/assets/images/new-images/bee.png">
+                        <img class="small-bees place-bee-2 position-absolute" src="data/assets/images/new-images/bee.png">
+                        <img class="small-bees place-bee-3 position-absolute" src="data/assets/images/new-images/bee.png">
+                        <div class="match add-tick">
+                            <div class="num">
+                                <div class="text-jinda transition unit1L6-text number1">1</div>
+                                <span id="dot-1" class="check-dot-1" onclick="line1(this)"></span>
+                            </div>
+                            <div class="num right">
+                                <span id="dot-2" class="check-dot-1"></span>
+                                <div class="text-jinda transition unit1L6-text number2">one</div>
+                            </div>
+                        </div>
+                        <div class="line-wrapper">
+                            <img class="line position-absolute" src="data/assets/images/new-images/line.png">
+                            <img class="line2 position-absolute" src="data/assets/images/new-images/line.png">
+                        </div>
+                        <div class="match sec add-tick">
+                            <div class="num">
+                                <div class="text-jinda transition unit1L6-text number3">2</div>
+                                <span id="dot-3" class="check-dot-1" onclick="line2(this)"></span>
+                            </div>
+                            <div class="num right">
+                                <span id="dot-4" class="check-dot-1"></span>
+                                <div class="text-jinda transition unit1L6-text number4">two</div>
+                            </div>
+                        </div>
+                        <img class="small-flower place-flower-1 position-absolute" src="data/assets/images/new-images/small-flower.png">
+                        <img class="small-flower place-flower-2 position-absolute" src="data/assets/images/new-images/small-flower.png">
+                        <img class="small-flower place-flower-3 position-absolute" src="data/assets/images/new-images/small-flower.png">
+
+                    </div>
+                    <img src="data/assets/images/new-images/unit6-border.png" style="width: 100%;">
+                    <div class="unit1L6-inner mamkg1 transition" id="topleftlogo" onclick="play('data/assets/audio/circle.mp3')">
+                        <div class="pointer inline">
+                            <img src="data/assets/images/new-images/circle.png" alt="Book" class="logoinside">
+                        </div>
+                        <div class="unittextstyle activity-text">
+                            <span>C</span><span>i</span><span>r</span><span>c</span><span>l</span><span>e</span>
+                        </div>
+                    </div>
+                    <div class="unit1L6-wrapper2">
+                        <div class="unit1L6-box add-tick">
+                            <div class="box-image">
+                                <img class="ice-cream" src="data/assets/images/new-images/ice-cream-1.jpg">
+                                <img class="ice-cream" src="data/assets/images/new-images/ice-cream-2.jpg">
+                            </div>
+                            <div class="number-box">
+                                <div class="text-jinda select-1" onclick="incorrectCircle(this)">1</div>
+                                <div class="text-jinda select-2"  onclick="correctCircle(this)">2</div>
+                            </div>
+                        </div>
+                        <div class="unit1L6-box add-tick">
+                            <div class="box-image">
+                                <img class="boy-box" src="data/assets/images/new-images/boy.png">
+                            </div>
+                            <div class="number-box boy-image">
+                                <div class="text-jinda select-3"  onclick="correctCircle1(this)">1</div>
+                                <div class="text-jinda select-4"  onclick="incorrectCircle1(this)">2</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="actionbtn reloadbtn">
+                        <a href="#" onclick="checkunit1L6()" style="display: inline-block;">
+                            <img src="data/assets/images/ansbtn.png" alt="Answer" style="opacity: 1; transform: scale(1);">
+                        </a>
+                        <button type="reset" class="resetRadioInput" onclick="reloadPageUnit1L6()">
+                            <img src="data/assets/images/reload.png" alt="Reload">
+                        </button>
+                    </div>
+                </div>
+                </div>
                <!-- exercise end -->
                 <!-- "Read" exercise end -->
 
                 <!-- "Tick" exercise start -->
+                <div class="exercise ">
+				<div class="bgimgwrapper dynamicpagediv unit1L6-main">
+                    <div class="topleftlogo clearfix mamkg1 transition" id="topleftlogo" onclick="play('data/assets/audio/type.mp3')">
+                        <div class="pointer inline">
+                            <img src="data/assets/images/new-images/trace.png" alt="Book" class="logoinside">
+                        </div>
+                        <div class="unittextstyle activity-text">
+                            <span>T</span><span>y</span><span>p</span><span>e</span>
+                        </div>
+                    </div>
+                    <div class="transparentbg">
+                        <div class="result">
+                            <div class="goodjob" style="display: none;">
+                                <a href="javascript:void(0);" class="popupclose disablehreflink" onclick="Close()"><img src="data/assets/images/wrong.png" alt="Close"></a>
+                                    <img src="data/assets/images/goodjob.jpg" class="img100">
+                            </div>
+                            <div class="tryagain" style="display: none;">
+                                <a href="javascript:void(0);" class="popupclose disablehreflink" onclick="Close()"><img src="data/assets/images/wrong.png" alt="Close"></a>
+                                    <img src="data/assets/images/tryagain.jpg" class="img100">
+                            </div>
+                        </div>
+                    </div>
+                    <form id="myformUnit1L6">
+                        <div class="unit1L6-boxes">
+                            <img src="data/assets/images/new-images/one-ball.png">
+
+                            <div class="input-text-container">
+                                <input id="num-1" type="text" class="text-jinda text-size">
+                            </div>
+                            
+                        </div>
+                        <div class="unit1L6-boxes">
+                            <img src="data/assets/images/new-images/color-box.png">
+                            <div class="input-text-container">
+                                <input id="num-2" type="text" class="text-jinda text-size">
+                            </div>
+                            
+                        </div>
+                        <div class="unit1L6-boxes">
+                            <img src="data/assets/images/new-images/oranges.png">
+                            <div class="input-text-container">
+                                <input id="num-3" type="text" class="text-jinda text-size">
+                            </div>
+                            
+                        </div>
+                        <div class="unit1L6-boxes">
+                            <img src="data/assets/images/new-images/biscut.jpg">
+                            <div class="input-text-container">
+                                <input id="num-4" type="text" class="text-jinda text-size">
+                            </div>
+                            
+                        </div>
+                    </form>
+                    <div class="actionbtn reloadbtn">
+                        <a href="#" onclick="checknumbers()" style="display: inline-block;">
+                            <img src="data/assets/images/ansbtn.png" alt="Answer" style="opacity: 1; transform: scale(1);">
+                        </a>
+                        <button type="reset" class="resetRadioInput" onclick='document.getElementById("myformUnit1L6").reset();'>
+                            <img src="data/assets/images/reload.png" alt="Reload">
+                        </button>
+                    </div>
+                </div>
+                </div>
                <!-- exercise end -->
                 <!-- "Tick" exercise end -->
 

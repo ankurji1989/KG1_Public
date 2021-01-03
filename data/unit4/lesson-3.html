@@ -1,17 +1,65 @@
-        <div class="dynamicpagediv insideframepadding">
-            <div id="header"></div>
+<div class="dynamicpagediv insideframepadding">
+    <div id="header"></div>
+    <div class="lesson bg-pink u4Lesson3">
+        <!-- "Read" exercise start -->
+        <div class="exercise pos-relative">
+            <div class="exerciseLogo" onclick="play('data/assets/audio/count.mp3')">
+                <img src="data/assets/images/unit4/countLogo.png" alt="">
+            </div>
             
-            <div class="lesson">
-                <!-- "Read" exercise start -->
-               <!-- exercise end -->
-                <!-- "Read" exercise end -->
-
-                <!-- "Tick" exercise start -->
-               <!-- exercise end -->
-                <!-- "Tick" exercise end -->
-
-            </div> <!-- lesson end -->
-
-            <div id="footerwithlesson"></div>
-        </div> <!-- dynamicpagediv end -->
-        
+            <div class="bgEle">
+                <div class="pointer inline absCountImg">
+                    <img src="data/assets/images/unit4/lesson1/1.png" alt="Book" class="logoinside">
+                </div>
+                <img src="data/assets/images/Unit4lesson37.png" alt="" class="abs1">
+                <img src="data/assets/images/Unit4lesson37.png" alt="" class="abs2">
+                <img class="eleBg" src="data/assets/images/unit4/l3Bg.png" alt="">
+                <span class="sevenBalls" onclick="play('data/assets/audio/sevenBalls.mp3')"><img src="data/assets/images/volumn.png" alt="Play"></span>
+                <span class="sevenele" onclick="play('data/assets/audio/sevenEle.mp3')"><img src="data/assets/images/volumn.png" alt="Play"></span>
+            </div>
+        </div>
+        <div class="exercise interactive">
+            <div class="exerciseLogo" onclick="play('data/assets/audio/Type.mp3')">
+                <img src="data/assets/images/unit4/typeLogo.png" alt="">
+            </div>
+            <div class="severWrap">
+                <div class="seven option">
+                    <input autocomplete="off" id="six" type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" placeholder="7" />
+                </div>
+                <div class="Drob7Circles option">
+                </div>
+            </div>
+            <div class="circle7Wrap">
+                <h1 class="text-center">Drag and Drop Circles to upper box</h1>
+                <div class="wrapCircle">
+                <span class="circle7"></span>
+                <span class="circle7"></span>
+                <span class="circle7"></span>
+                <span class="circle7"></span>
+                <span class="circle7"></span>
+                <span class="circle7"></span>
+                <span class="circle7"></span>
+                <span class="circle7"></span>
+                <span class="circle7"></span>
+                <span class="circle7"></span>
+                <span class="circle7"></span>
+                <span class="circle7"></span>
+                </div>
+            </div>
+            <div class="anserSubmit" id="u4L3">
+                <img src="data/assets/images/ansbtn.png" alt="" class="submitAnswer">
+                <img src="data/assets/images/reload.png" alt="" class="resetAnswer">
+            </div>
+            <div class="rightAnswerTryAgain">
+                <div class="answerWrapper">
+                    <div class="answerImages">
+                        <img src="data/assets/images/tryagain.jpg" alt="" class="tryAgainAt">
+                        <img src="data/assets/images/goodjob.jpg" alt="" class="goodjobAt">
+                    </div>
+                    <img src="data/assets/images/wrong.png" alt="" class="closeAnswer">
+                </div>
+            </div>
+        </div>
+        <div id="footerwithlesson"></div>
+    </div>
+</div>

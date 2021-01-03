@@ -1,17 +1,140 @@
-        <div class="dynamicpagediv insideframepadding">
-            <div id="header"></div>
-            
-            <div class="lesson">
-                <!-- "Read" exercise start -->
-               <!-- exercise end -->
-                <!-- "Read" exercise end -->
+<div class="dynamicpagediv insideframepadding">
+    <div id="header"></div>
+    <div class="lesson bg-white">
+        <!-- "Read" exercise start -->
+        <div class="exercise" style="display: block;">
+            <div class="exerciseLogo" onclick="play('data/assets/audio/count.mp3')">
+                <img src="data/assets/images/unit4/countLogo.png" alt="">
+            </div>
+            <div class="staticL4">
+                <div class="boyImg">
+                    <img src="data/assets/images/unit4/boyL4.png" alt="">
+                </div>
+                <div class="contentWrap">
+                    <div class="upper">
+                        <div class="images">
+                            <img src="data/assets/images/unit4/duck1.png" alt="">
+                            <h5>
+                                <small>one</small> more
+                            </h5>
+                        </div>
+                        <div class="numbers">
+                            <!-- <span>3</span>
+                        <span>2</span> -->
+                            <img src="data/assets/images/unit4/threeTwo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="lower upper">
+                        <div class="images">
+                            <img src="data/assets/images/unit4/balls1.png" alt="">
+                            <h5>
+                                <small>one</small> more
+                            </h5>
+                        </div>
+                        <div class="numbers">
+                            <!-- <span>3</span>
+                        <span>4</span> -->
+                            <img src="data/assets/images/unit4/threeFour.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- exercise end -->
+        <!-- "Read" exercise end -->
+        <!-- "Tick" exercise start -->
+        <div class="exercise interactive" style="display: block;">
+            <div class="exerciseLogo" onclick="play('data/assets/audio/crossout.mp3')">
+                <img src="data/assets/images/unit4/crossLogo.png" alt="">
+            </div>
+            <div class="activityL4">
+                <div class="leftAct">
+                    <h2><small>one</small> more</h2>
+                    <div class="upper">
+                        <div class="imgHolderL4 option">
+                            <div><img src="data/assets/images/unit4/teddyBear.png" alt=""></div>
+                            <div><img src="data/assets/images/unit4/teddyBear.png" alt=""></div>
+                            <div><img src="data/assets/images/unit4/teddyBear.png" alt=""></div>
+                            <div class="rightAns"><img src="data/assets/images/unit4/teddyBear.png" alt=""></div>
+                        </div>
+                        <div class="imgHolderL4">
+                            <div><img src="data/assets/images/unit4/tree.png" alt=""></div>
+                            <div><img src="data/assets/images/unit4/tree.png" alt=""></div>
+                            <div><img src="data/assets/images/unit4/tree.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="lower upper">
+                        <div class="imgHolderL4">
+                            <div><img src="data/assets/images/unit4/bee.png" alt=""></div>
+                            <div><img src="data/assets/images/unit4/bee.png" alt=""></div>
+                        </div>
+                        <div class="imgHolderL4 option">
+                            <div class="rightAns"><img src="data/assets/images/unit4/honey.png" alt=""></div>
+                            <div><img src="data/assets/images/unit4/honey.png" alt=""></div>
+                            <div><img src="data/assets/images/unit4/honey.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rightAct">
+                    <div class="upper">
+                        <h2><small>one</small> more</h2>
+                        <h3>Drag and Drop</h3>
+                        <div class="ddHolder">
+                            <div class="placeHolderDD">
+                            <div class="dummyDD dd">
+                                <span class="circleL4"></span>
+                                <span class="circleL4"></span>
+                            </div>
+                            <div class="ppDD">
+                                <span class="circleL4"></span>
+                                <span class="circleL4"></span>
+                                <span class="circleL4"></span>
+                            </div>
+                            </div>
+                            <div class="dropDD dd option">
 
-                <!-- "Tick" exercise start -->
-               <!-- exercise end -->
-                <!-- "Tick" exercise end -->
+                            </div>
+                        </div>
+                    </div>
 
-            </div> <!-- lesson end -->
-
-            <div id="footerwithlesson"></div>
-        </div> <!-- dynamicpagediv end -->
-        
+                    <div class="lower">
+                        <h2><small>one</small> more</h2>
+                        <h3>type</h3>
+                        <div class="inputsL4">
+                            <div class="leftInput">
+                                <h4>3</h4>
+                                <div class="l4Input option">
+                                    <input id="l41" autocomplete="off" type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+                                </div>
+                            </div>
+                            <div class="rightInput">
+                                <h4>1</h4>
+                                <div class="l4Input option">
+                                    <input id="l42" autocomplete="off" type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="anserSubmit" id="u4L4">
+                <img src="data/assets/images/ansbtn.png" alt="" class="submitAnswer">
+                <img src="data/assets/images/reload.png" alt="" class="resetAnswer">
+            </div>
+            <div class="rightAnswerTryAgain">
+                <div class="answerWrapper">
+                    <div class="answerImages">
+                        <img src="data/assets/images/tryagain.jpg" alt="" class="tryAgainAt">
+                        <img src="data/assets/images/goodjob.jpg" alt="" class="goodjobAt">
+                    </div>
+                    <img src="data/assets/images/wrong.png" alt="" class="closeAnswer">
+                </div>
+            </div>
+        </div>
+        <!-- exercise end -->
+        <!-- "Tick" exercise end -->
+    </div>
+    <!-- lesson end -->
+    <div id="footerwithlesson"></div>
+</div>
+<!-- dynamicpagediv end -->
